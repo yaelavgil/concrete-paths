@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>שבילי הכניסה — אשל 57</title>
+<meta name="description" content="תוכנית שבילי הכניסה בבטון מוחלק באשל 57 — מהשער הראשי ומהחנייה, עם מידות, כמויות ושאלות פתוחות.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="אשל 57">
+<meta property="og:locale" content="he_IL">
+<meta property="og:title" content="שבילי הכניסה — אשל 57">
+<meta property="og:description" content="בטון מוחלק מהשער ומהחנייה · 46 מ״ר · כל מידה מסומנת מודפס או משורטט.">
+<meta property="og:url" content="https://yaelavgil.github.io/concrete-paths/">
+<meta property="og:image" content="https://yaelavgil.github.io/concrete-paths/og-concrete.jpg">
+<meta property="og:image:secure_url" content="https://yaelavgil.github.io/concrete-paths/og-concrete.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="שבילי הכניסה — אשל 57">
+<meta name="twitter:description" content="בטון מוחלק מהשער ומהחנייה · 46 מ״ר.">
+<meta name="twitter:image" content="https://yaelavgil.github.io/concrete-paths/og-concrete.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="שבילי הכניסה">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#f7f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f7f4ef;
+  --surface:#ffffff;
+  --surface2:#efeae1;
+  --surface3:#e6dfd3;
+  --text:#221f1b;
+  --muted:#6a635a;
+  --line:#d9d1c4;
+  --line-strong:#b6ab99;
+  --accent:#8a5a2b;
+  --accent-bg:#f3e8da;
+  --ok:#1c6b45;       /* מודפס */
+  --ok-bg:#dff0e6;
+  --warn:#a4501a;     /* משורטט */
+  --warn-bg:#f8e7d7;
+  --dec:#5c4593;      /* החלטה */
+  --dec-bg:#e9e3f6;
+  --miss:#a52218;     /* חסר */
+  --miss-bg:#f8e0dd;
+  --concrete:#d3c9b8;
+  --concrete-2:#c2b6a1;
+  --plant:#8aa56b;
+  --plant-2:#6f8a52;
+  --house:#cfc7bb;
+  --house-line:#6e675d;
+  --red:#b3382c;
+  --ink:#3a352e;
+  --paper:#ffffff;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 6px 18px rgba(0,0,0,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#15140f;
+    --surface:#1e1c17;
+    --surface2:#262319;
+    --surface3:#2f2b20;
+    --text:#ece6da;
+    --muted:#a49b8b;
+    --line:#3a352a;
+    --line-strong:#544d3e;
+    --accent:#d9a56a;
+    --accent-bg:#332718;
+    --ok:#68c495;
+    --ok-bg:#16301f;
+    --warn:#e2a36a;
+    --warn-bg:#33210f;
+    --dec:#b3a2e6;
+    --dec-bg:#241d38;
+    --miss:#ef8177;
+    --miss-bg:#361714;
+    --concrete:#4a453a;
+    --concrete-2:#5c5546;
+    --plant:#4d6138;
+    --plant-2:#66804a;
+    --house:#39352c;
+    --house-line:#b0a794;
+    --red:#e8705f;
+    --ink:#ece6da;
+    --paper:#1e1c17;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#15140f; --surface:#1e1c17; --surface2:#262319; --surface3:#2f2b20;
+  --text:#ece6da; --muted:#a49b8b; --line:#3a352a; --line-strong:#544d3e;
+  --accent:#d9a56a; --accent-bg:#332718;
+  --ok:#68c495; --ok-bg:#16301f; --warn:#e2a36a; --warn-bg:#33210f;
+  --dec:#b3a2e6; --dec-bg:#241d38; --miss:#ef8177; --miss-bg:#361714;
+  --concrete:#4a453a; --concrete-2:#5c5546; --plant:#4d6138; --plant-2:#66804a;
+  --house:#39352c; --house-line:#b0a794; --red:#e8705f; --ink:#ece6da; --paper:#1e1c17;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.35);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--bg); color:var(--text);
+  font-family:"Heebo","Assistant","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  line-height:1.65; margin:0; padding:0 14px 80px;
+  -webkit-text-size-adjust:100%;
+}
+.wrap{max-width:860px;margin:0 auto}
+header.top{padding:28px 0 10px;border-bottom:2px solid var(--line-strong);margin-bottom:22px}
+.eyebrow{color:var(--accent);font-weight:700;font-size:.82rem;letter-spacing:.04em;margin:0 0 6px}
+h1{font-size:1.65rem;line-height:1.25;margin:0 0 10px;font-weight:800;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:.95rem;margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.chip{background:var(--surface2);border:1px solid var(--line);border-radius:999px;padding:3px 11px;font-size:.78rem;color:var(--muted)}
+
+h2{font-size:1.22rem;margin:40px 0 6px;font-weight:800;letter-spacing:-.01em;padding-top:14px;border-top:1px solid var(--line)}
+h3{font-size:1.02rem;margin:26px 0 6px;font-weight:700}
+h4{font-size:.94rem;margin:18px 0 4px;font-weight:700;color:var(--accent)}
+p{margin:.55em 0}
+ul,ol{margin:.5em 0;padding-inline-start:1.25em}
+li{margin:.3em 0}
+strong{font-weight:700}
+code{background:var(--surface2);padding:1px 5px;border-radius:4px;font-size:.88em}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:16px 0;box-shadow:var(--shadow)}
+.card.lead{border-right:4px solid var(--accent)}
+.card.alert{border-right:4px solid var(--miss);background:var(--miss-bg)}
+.card.note{border-right:4px solid var(--warn);background:var(--warn-bg)}
+.card.good{border-right:4px solid var(--ok);background:var(--ok-bg)}
+.card h3,.card h4{margin-top:0}
+
+.tag{display:inline-block;font-size:.72rem;font-weight:700;padding:1px 7px;border-radius:5px;white-space:nowrap;vertical-align:.08em;line-height:1.5}
+.t-p{background:var(--ok-bg);color:var(--ok);border:1px solid color-mix(in srgb,var(--ok) 35%,transparent)}
+.t-s{background:var(--warn-bg);color:var(--warn);border:1px solid color-mix(in srgb,var(--warn) 35%,transparent)}
+.t-d{background:var(--dec-bg);color:var(--dec);border:1px solid color-mix(in srgb,var(--dec) 35%,transparent)}
+.t-m{background:var(--miss-bg);color:var(--miss);border:1px solid color-mix(in srgb,var(--miss) 35%,transparent)}
+.t-c{background:var(--surface3);color:var(--muted);border:1px solid var(--line)}
+
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px -16px;padding:0 16px}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:.88rem;background:var(--surface);border-radius:10px;overflow:hidden}
+th,td{text-align:right;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--surface2);font-weight:700;font-size:.82rem;color:var(--muted);white-space:nowrap}
+tr:last-child td{border-bottom:none}
+td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
+tfoot td{background:var(--surface2);font-weight:700}
+
+figure{margin:18px 0;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px;box-shadow:var(--shadow)}
+figure .svgbox{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure svg{display:block;width:100%;height:auto;min-width:680px}
+figcaption{font-size:.8rem;color:var(--muted);margin-top:8px;line-height:1.55;padding:0 4px}
+
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:.78rem;color:var(--muted);margin:10px 0 0;padding:0 4px}
+.legend span{display:flex;align-items:center;gap:5px}
+.sw{width:14px;height:10px;border-radius:2px;border:1px solid var(--line-strong);display:inline-block}
+
+.grid2{display:grid;gap:12px;grid-template-columns:1fr}
+@media(min-width:680px){.grid2{grid-template-columns:1fr 1fr}}
+
+.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font-size:.9rem;margin:8px 0}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0;font-weight:600}
+
+.q{counter-reset:qq}
+.q li{margin:.55em 0}
+.qfor{font-size:.76rem;font-weight:700;color:var(--accent);display:block}
+
+.big{font-size:1.06rem;font-weight:700}
+.rec{background:var(--accent-bg);border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);border-radius:12px;padding:14px 16px;margin:16px 0}
+.rec h3{margin-top:0;color:var(--accent)}
+.small{font-size:.82rem;color:var(--muted)}
+hr.soft{border:none;border-top:1px dashed var(--line);margin:22px 0}
+
+/* SVG theming */
+svg .plot{fill:none;stroke:var(--house-line);stroke-width:4}
+svg .bldline{fill:none;stroke:var(--red);stroke-width:3;stroke-dasharray:26 12 6 12}
+svg .house{fill:var(--house);stroke:var(--house-line);stroke-width:5}
+svg .conc{fill:var(--concrete);stroke:var(--house-line);stroke-width:2.5}
+svg .conc2{fill:var(--concrete-2);stroke:var(--house-line);stroke-width:2.5}
+svg .plantf{fill:var(--plant);opacity:.5;stroke:none}
+svg .cut{stroke:var(--ink);stroke-width:2;stroke-dasharray:14 9;fill:none;opacity:.75}
+svg .dim{stroke:var(--ok);stroke-width:2;fill:none}
+svg .dims{stroke:var(--warn);stroke-width:2;fill:none;stroke-dasharray:10 7}
+svg .thin{stroke:var(--house-line);stroke-width:1.6;fill:none}
+svg text{font-family:"Heebo","Assistant",system-ui,sans-serif;fill:var(--ink)}
+svg .lp{fill:var(--ok);font-size:40px;font-weight:700}
+svg .ls{fill:var(--warn);font-size:40px;font-weight:700}
+svg .ld{fill:var(--dec);font-size:40px;font-weight:700}
+svg .lt{fill:var(--ink);font-size:42px;font-weight:700}
+svg .lm{fill:var(--muted);font-size:36px}
+svg .lbig{fill:var(--ink);font-size:52px;font-weight:800}
+svg .arw{stroke:var(--accent);stroke-width:4;fill:none}
+/* RTL: text-anchor "end" makes text run to the RIGHT of x, "start" to the LEFT */
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <p class="eyebrow">אשל 57, בת חפר · פיתוח חצר · בטון מוחלק</p>
+  <h1>שבילי הכניסה — מהחנייה ומהשער הראשי אל דלת הבית</h1>
+  <p class="sub">מסמך עבודה לגל בטון ולשיחה עם נופר. כולל גיאומטריה, תפרים, שיפועים, פרטי קצה וכתב כמויות.</p>
+  <div class="meta">
+    <span class="chip">מגרש 451 מ״ר</span>
+    <span class="chip">±0.00 = 50.03</span>
+    <span class="chip">כל המידות בס״מ אלא אם צוין אחרת</span>
+    <span class="chip">12.09.2026</span>
+  </div>
+</header>
+
+<div class="card lead">
+  <h3>איך לקרוא כל מספר במסמך הזה</h3>
+  <p>אין כאן אף מספר שנוחש. לכל מידה מוצמד מקור:</p>
+  <ul>
+    <li><span class="tag t-p">מודפס</span> — כיתוב מספרי על גבי גיליון התוכנית עצמו. אמין.</li>
+    <li><span class="tag t-s">משורטט</span> — נמדד על ידי מקואורדינטות הקו בשרטוט, אחרי כיול. מסומן ≈. <strong>טעון אימות בשטח.</strong></li>
+    <li><span class="tag t-d">החלטה</span> — מהוואטסאפ או מבעלי הבית, לא מהתוכנית.</li>
+    <li><span class="tag t-c">הצעה</span> — תכנון שלנו במסמך הזה. לא קיים באף תוכנית וניתן לשינוי.</li>
+    <li><span class="tag t-m">חסר</span> — לא ניתן לקבוע משום קובץ קיים. דורש מדידה או הכרעה.</li>
+  </ul>
+  <h4>איך כויל הקנה מידה</h4>
+  <p>גיליון הגרמושקה להיתר (2.1.2024) נסרק ונותח פיקסלית ברזולוציה של 130dpi. הכיול נעשה מול <strong>שלוש</strong> מידות מודפסות בלתי תלויות על אותו גיליון:</p>
+  <ul class="small">
+    <li>רוחב המגרש <span class="tag t-p">1670</span> — נמדד 829.5 פיקסל ⟵ 2.013 ס״מ/פיקסל</li>
+    <li>קיר דרומי→גבול <span class="tag t-p">483</span> — נמדד 240 פיקסל ⟵ 2.013 ס״מ/פיקסל</li>
+    <li>קו בניין דרומי→גבול <span class="tag t-p">400</span> — נמדד 199 פיקסל ⟵ 2.010 ס״מ/פיקסל</li>
+  </ul>
+  <p class="small">שלושתן מתכנסות ל־<strong>2.011 ס״מ/פיקסל</strong> בסטייה של פחות מ־0.2%. בדיקת סגירה: 300 + 150 + 770 + 150 + 300 = 1670 — שרשרת החזית הדרומית סוגרת בדיוק על רוחב המגרש, כך שגם מיקום קירות הבית מאומת. כל מידה שמסומנת כאן <span class="tag t-s">משורטט</span> מבוססת על הכיול הזה, ודיוקה כ־±1.5% (כלומר ±2 ס״מ למטר).</p>
+  <p class="small">מיקום דלת הכניסה נמדד <strong>פעמיים ובשני קבצים שונים</strong> — בגרמושקה ובהעמדת קומת קרקע 21.08.26 (1:50, כויל מול אורך הבית המודפס 1520) — ושתי המדידות נפלו בתוך 2 ס״מ זו מזו.</p>
+</div>
+
+<h2>1 · התשובה בשורה אחת</h2>
+
+<div class="rec">
+  <h3>ההמלצה: אפשרות א׳ — ציר מערבי אחד, זרוע אחת מהחנייה</h3>
+  <p><strong>ציר יחיד ברוחב 130 ס״מ</strong> — בדיוק רוחב הפשפש <span class="tag t-p">130</span> — עולה מהשער הראשי צפונה לאורך הרצועה המערבית, ומסתיים בגרם אחד של 4 מדרגות ובמפתן של 230×200 מול דלת הכניסה. <strong>זרוע אחת ברוחב 120 ס״מ</strong> יוצאת מהחנייה מערבה ומתחברת אל הציר הזה, כשהקצה הצפוני שלה יושב בדיוק על קו הבניין הדרומי <span class="tag t-p">400</span>.</p>
+  <p>הסיבה: זו האפשרות שמרכזת את <strong>כל</strong> הפרש הגובה של כ־67–94 ס״מ בגרם מדרגות אחד ליד הדלת, משאירה את שאר המסלול בשיפוע הליכה נוח של כ־2.2%, נוגעת בקיר הבית רק במקום אחד, ומשתמשת בכ־46 מ״ר בטון במקום 82 מ״ר באפשרות ״הכיכר״. היא גם משאירה ערוגה רציפה ברוחב 83 ס״מ לאורך כל החזית הדרומית — מתחת לחלון הממ״ד — במקום בטון צמוד לטיח חדש.</p>
+  <p class="small">שתי האפשרויות האחרות אינן פסולות. אפשרות ב׳ — אותה זרוע בדיוק, אבל צמודה לקיר הבית — <strong>עולה בדיוק אותו דבר ומשאירה גינה קדמית אחת גדולה במקום שתיים</strong>, ואם זו העדפה עיצובית, זו בחירה לגיטימית לחלוטין; המחיר שלה הוא 11.4 מ׳ נוספים של בטון צמוד לטיח חדש ואפס ערוגה מתחת לחלון הממ״ד. אפשרות ג׳ — הכיכר — היא הכי פשוטה ליציקה ולפילוס, וזה בדיוק מה שביקשתם מברק במקור, אבל היא כמעט מכפילה את שטח הבטון בחזית.</p>
+  <p class="small"><strong>ומה שלא ניתן לעשות:</strong> שביל אלכסוני קצר מהחנייה ישר אל הדלת. הפינה הדרום־מערבית של הבית חוסמת אותו — הפירוט בסעיף 4.</p>
+</div>
+
+<h2>2 · מה באמת יש בשטח — כל מספר ומקורו</h2>
+
+<p>הקטע שבו עוסק המסמך הוא <strong>החצר הקדמית</strong>: הרצועה שבין הגבול הדרומי של המגרש לקיר הדרומי של הבית, ברוחב המגרש המלא, ועוד הרצועה המערבית שמובילה ממנה אל דלת הכניסה.</p>
+
+<figure>
+  <div class="svgbox">
+  <svg viewBox="-430 -160 2500 2040" role="img" aria-label="תוכנית מצב קיים של החצר הקדמית">
+    <!-- plot -->
+    <rect x="0" y="0" width="1670" height="1550" fill="var(--surface2)"/>
+    <path class="plot" d="M0,0 L0,1550 L1670,1550 L1670,0"/>
+    <!-- house -->
+    <path class="house" d="M450,1067 L1220,1067 L1220,-40 L300,-40 L300,337 L450,337 Z"/>
+    <text class="lm" x="760" y="700" text-anchor="middle">הבית</text>
+    <text class="lm" x="760" y="745" text-anchor="middle">(האגף הדרומי)</text>
+    <!-- rock garden niche -->
+    <rect class="plantf" x="300" y="337" width="150" height="730"/>
+    <text class="lm" x="375" y="720" text-anchor="middle" transform="rotate(-90 375 720)">גינת סלעים קיימת 150×730</text>
+    <!-- building lines -->
+    <path class="bldline" d="M0,1150 L1670,1150"/>
+    <path class="bldline" d="M1370,1150 L1370,-40"/>
+    <text class="lm" x="240" y="1120" fill="var(--red)" text-anchor="start">קו בניין</text>
+    <!-- carport -->
+    <rect x="1370" y="1150" width="300" height="400" fill="var(--concrete-2)" opacity=".55" stroke="var(--red)" stroke-width="3"/>
+    <text class="lt" x="1520" y="1330" text-anchor="middle">חנייה</text>
+    <text class="lm" x="1520" y="1375" text-anchor="middle">לא מקורה</text>
+    <text class="lm" x="1520" y="1415" text-anchor="middle">300 × 400</text>
+    <!-- gates -->
+    <path d="M100,1550 L230,1550" stroke="var(--accent)" stroke-width="16" stroke-linecap="butt"/>
+    <path d="M1180,1550 L1660,1550" stroke="var(--accent)" stroke-width="16" stroke-linecap="butt"/>
+    <text class="lt" x="165" y="1618" text-anchor="middle">פשפש 130</text>
+    <text class="lt" x="1420" y="1618" text-anchor="middle">שער נגרר לרכב 480</text>
+    <!-- bin niche -->
+    <rect x="0" y="1520" width="100" height="30" fill="var(--surface3)" stroke="var(--house-line)" stroke-width="2"/>
+    <text class="lm" x="-40" y="1460" text-anchor="start">נישת פח אשפה</text>
+    <!-- front door -->
+    <path d="M300,314 L300,204" stroke="var(--accent)" stroke-width="18"/>
+    <path class="arw" d="M180,259 L280,259"/>
+    <path class="arw" d="M245,235 L280,259 L245,283"/>
+    <text class="lt" x="150" y="248" text-anchor="start">דלת כניסה ראשית</text>
+    <text class="lm" x="150" y="296" text-anchor="start">פתח ≈110</text>
+    <!-- east service door -->
+    <path d="M1220,365 L1220,290" stroke="var(--accent)" stroke-width="14" opacity=".7"/>
+    <text class="lm" x="1250" y="320" text-anchor="end">דלת שירות מזרחית ≈75</text>
+    <!-- corner levels -->
+    <circle cx="0" cy="1550" r="16" fill="none" stroke="var(--house-line)" stroke-width="4"/>
+    <circle cx="1670" cy="1550" r="16" fill="none" stroke="var(--house-line)" stroke-width="4"/>
+    <text class="lp" x="-40" y="1530" text-anchor="start">49.06</text>
+    <text class="lp" x="1710" y="1530" text-anchor="end">49.41</text>
+    <text class="lm" x="835" y="1830" text-anchor="middle">גבול מגרש דרומי — הרחוב</text>
+
+    <!-- dimensions: plot width -->
+    <path class="dim" d="M0,-90 L1670,-90 M0,-110 L0,-70 M1670,-110 L1670,-70"/>
+    <text class="lp" x="835" y="-105" text-anchor="middle">1670</text>
+    <!-- 483 -->
+    <path class="dim" d="M1760,1067 L1760,1550 M1740,1067 L1780,1067 M1740,1550 L1780,1550"/>
+    <text class="lp" x="1800" y="1320" text-anchor="middle" transform="rotate(-90 1800 1320)">483</text>
+    <!-- 400 -->
+    <path class="dim" d="M1860,1150 L1860,1550 M1840,1150 L1880,1150 M1840,1550 L1880,1550"/>
+    <text class="lp" x="1900" y="1360" text-anchor="middle" transform="rotate(-90 1900 1360)">400</text>
+    <!-- west 300 -->
+    <path class="dim" d="M0,60 L300,60 M0,40 L0,80 M300,40 L300,80"/>
+    <text class="lp" x="150" y="30" text-anchor="middle">300</text>
+    <!-- 150 step -->
+    <path class="dim" d="M300,400 L450,400 M300,380 L300,420 M450,380 L450,420"/>
+    <text class="lp" x="375" y="465" text-anchor="middle">150</text>
+    <!-- carport 300 -->
+    <path class="dim" d="M1370,1100 L1670,1100 M1370,1080 L1370,1120 M1670,1080 L1670,1120"/>
+    <text class="lp" x="1520" y="1070" text-anchor="middle">300</text>
+    <!-- gate chain -->
+    <path class="dims" d="M100,1680 L1660,1680"/>
+    <path class="dims" d="M100,1660 L100,1700 M230,1660 L230,1700 M1180,1660 L1180,1700 M1660,1660 L1660,1700"/>
+    <text class="ls" x="705" y="1752" text-anchor="middle">943 על תכנית הקרקע · 880 על חזית הגדר</text>
+    <!-- offsets -->
+    
+    <!-- house south facade chain -->
+    <path class="dim" d="M300,990 L450,990 M450,990 L1220,990 M1220,990 L1370,990"/>
+    <path class="dim" d="M300,970 L300,1010 M450,970 L450,1010 M1220,970 L1220,1010 M1370,970 L1370,1010"/>
+    <text class="lp" x="375" y="960" text-anchor="middle">150</text>
+    <text class="lp" x="835" y="960" text-anchor="middle">770</text>
+    <text class="lp" x="1295" y="960" text-anchor="middle">150</text>
+    <!-- door position dim -->
+    <path class="dims" d="M180,259 L180,1067 M160,259 L200,259 M160,1067 L200,1067"/>
+    <text class="ls" x="140" y="680" text-anchor="middle" transform="rotate(-90 140 680)">≈807</text>
+    <!-- north break -->
+    <path class="thin" d="M300,-40 L1220,-40" stroke-dasharray="20 14"/>
+    <text class="lm" x="760" y="-70" text-anchor="middle">הבית ממשיך צפונה — סה״כ 1520 (מודפס)</text>
+  </svg>
+  </div>
+  <div class="legend">
+    <span><i class="sw" style="background:var(--house)"></i> הבית</span>
+    <span><i class="sw" style="background:var(--plant);opacity:.5"></i> גינה קיימת</span>
+    <span><i class="sw" style="background:var(--concrete-2);opacity:.55"></i> מפרץ החנייה</span>
+    <span><i class="sw" style="background:var(--ok)"></i> מידה מודפסת</span>
+    <span><i class="sw" style="background:var(--warn)"></i> מידה משורטטת ≈</span>
+    <span><i class="sw" style="background:var(--red)"></i> קווי בניין</span>
+  </div>
+  <figcaption>מצב קיים, החצר הקדמית. מקור: גרמושקה להיתר בנייה 2.1.2024, ״תכנית קומת קרקע״ 1:100 + ״חזית גדר דרומית קדמית״; מיקום דלת הכניסה ודלת השירות המזרחית — העמדה קומת קרקע 21.08.26, 1:50.</figcaption>
+</figure>
+
+<h3>2.1 · מה גיליתי שלא היה כתוב בשום מקום עד היום</h3>
+
+<div class="card good">
+  <h4>מפרץ החנייה מוגדר בדיוק על ידי שני קווי בניין מודפסים</h4>
+  <p>המלבן האדום של ״חניה לא מקורה״ בגרמושקה נמדד <strong>300 ס״מ מזרח–מערב על 400 ס״מ צפון–דרום</strong>. שתי המידות האלה אינן שרירותיות: הצלע המזרחית יושבת בדיוק על גבול המגרש המזרחי, הצלע המערבית יושבת בדיוק על <strong>קו הבניין המזרחי</strong> (300 מהגבול, <span class="tag t-p">מודפס</span>), והצלע הצפונית יושבת בדיוק על <strong>קו הבניין הדרומי</strong> (400 מהגבול, <span class="tag t-p">מודפס</span>).</p>
+  <p>כלומר <strong>12.00 מ״ר</strong> של מפרץ חנייה, ושתי המידות שמגדירות אותו הן מודפסות. <span class="tag t-s">משורטט</span> רק האישור שהמלבן האדום אכן מצויר שם — והוא נפל תוך 1% משתי המידות המודפסות.</p>
+</div>
+
+<div class="card good">
+  <h4>המפרץ צר מהשער — 300 מול 480</h4>
+  <p>השער הנגרר לרכב הוא <span class="tag t-p">480</span> ברוחב, אבל מפרץ החנייה הוא 300 בלבד והוא ממוקם ב־300 <em>המזרחיים</em> של פתח השער. כלומר יש 180 ס״מ מפתח שער שאינם חנייה — וזה בדיוק המעבר שדרכו נכנסים ברגל, ושדרכו יעבור מערבל הבטון או המשאבה ביום היציקה.</p>
+</div>
+
+<div class="card note">
+  <h4>סתירה בין שני גיליונות של אותה גרמושקה</h4>
+  <p>אורך הקיר שבין הפשפש לשער הרכב מופיע פעמיים, בשני גיליונות של אותו היתר:</p>
+  <ul>
+    <li>ב״תכנית קומת קרקע״ 1:100 — <span class="tag t-p">943</span></li>
+    <li>ב״חזית גדר דרומית קדמית״ — <span class="tag t-p">880</span></li>
+  </ul>
+  <p><strong>הפרש של 63 ס״מ.</strong> אני לא יכול להכריע איזו נכונה, ואני לא מנחש. המשמעות המעשית: <strong>מיקום הפשפש ביחס לגבול המערבי אינו ידוע בדיוק של פחות מ־±60 ס״מ</strong>, ולכן קו הסימון של הציר המערבי חייב להימדד בשטח מהמשקוף של הפשפש עצמו ולא מהתוכנית. אני מעריך אותו ב־≈100 ס״מ מהגבול <span class="tag t-s">משורטט</span>, אבל זו הערכה.</p>
+</div>
+
+<div class="card note">
+  <h4>יש דלת חוץ שנייה — במזרח, ואף אחד לא דיבר עליה</h4>
+  <p>בהעמדת קומת קרקע 21.08.26 מופיעה <strong>דלת חוץ בחזית המזרחית</strong>, ברוחב פתח ≈75 <span class="tag t-s">משורטט</span>, כמעט מול דלת הכניסה המערבית (הפרש של ≈75 ס״מ בלבד בציר צפון–דרום). מאחוריה, בתוך הבית, נמצא אזור המזווה והמטבח.</p>
+  <p>המשמעות: <strong>המסלול הקצר ביותר מהרכב אל המטבח אינו עובר בדלת הכניסה בכלל.</strong> מהחנייה צפונה לאורך הרצועה המזרחית עד הדלת הזו זה כ־8 מ׳; מהחנייה מסביב לדלת המערבית זה כ־18–20 מ׳. זו נקודה שחייבת לעלות מול נופר לפני שסוגרים שביל — ראו שאלה פתוחה 3.</p>
+</div>
+
+<div class="card">
+  <h4>נופר עצמה סימנה את הפער הזה לפני חודשיים</h4>
+  <p>14.07.2026, בקבוצת הוואטסאפ: <strong>״לא תכננו לעומק את החלק הקדמי, איפה שהחלון ממד עד החניה״</strong> <span class="tag t-d">החלטה</span>. המסמך הזה הוא בדיוק המענה לאותו משפט.</p>
+  <p>ועוד ממנה ומכם, מאותה קבוצה:</p>
+  <ul class="small">
+    <li><strong>27.03.2026</strong>, יעל: ״שאל אם אנחנו רוצים בטון מוחלק במקום ריצוף בחוץ כי זה מוזיל עלויות... <strong>שאלה גם לגבי הצד של החנייה שנשמח לצקת שם בטון בשביל שיהיה מפולס.. וגם לגבי הכניסה</strong>״ <span class="tag t-d">החלטה</span> — כלומר גם החנייה וגם הכניסה נמצאות בהיקף מלכתחילה, והנימוק לחנייה הוא <em>פילוס</em>.</li>
+    <li><strong>08.05.2026</strong>, יעל: ״תהינו לגבי האבנים בכניסה — <strong>אני נוטה להעיף את הכל שם ואז צריך לחשוב אם ממשיכים את הבטון המוחלק לשם</strong>״ — לא נענה עד היום. ראו שאלה פתוחה 2.</li>
+    <li><strong>08.08.2026</strong>, רועי: ״אתמול בלילה פירקתי את המחסן... <strong>יש מעבר עכשיו מהחניה לשער</strong>״ — כלומר המכשול הפיזי היחיד שהיה בחצר הקדמית כבר הוסר.</li>
+    <li><strong>26.06.2026</strong>, רועי: חשמל באזור החנייה ״לשני הצדדים בשביל השער <strong>ועמדת טעינה</strong>״.</li>
+    <li><strong>19.06.2026</strong>, נופר: ״<strong>מעבה סמוך לחניה</strong>״ (מזגן חדרי הילדים).</li>
+    <li><strong>08.09.2026</strong>, רועי על גל: ״הוא כבר לא זוכר בדיוק לאן מגיע הבטון מאחורה, <strong>ואיך רצינו את הפודסטים בכניסה</strong>״ — עוד סיבה למסמך הזה.</li>
+  </ul>
+</div>
+
+<h2>3 · הבעיה האמיתית: הכניסה גבוהה ב־67 ס״מ מהרחוב</h2>
+
+<p>לפני שמדברים על צורה, צריך להבין שהשביל הזה הוא לא שביל שטוח. זו עלייה.</p>
+
+<div class="tablewrap">
+<table>
+  <thead><tr><th>נקודה</th><th class="num">מפלס</th><th>מקור</th></tr></thead>
+  <tbody>
+    <tr><td>רצפה גמורה בבית (±0.00)</td><td class="num">50.03</td><td><span class="tag t-p">מודפס</span> גרמושקה</td></tr>
+    <tr><td>פינת מגרש צפון־מערב</td><td class="num">49.68</td><td><span class="tag t-p">מודפס</span></td></tr>
+    <tr><td>פינת מגרש צפון־מזרח</td><td class="num">49.63</td><td><span class="tag t-p">מודפס</span></td></tr>
+    <tr><td>פינת מגרש דרום־מזרח (ליד החנייה)</td><td class="num">49.41</td><td><span class="tag t-p">מודפס</span></td></tr>
+    <tr><td>פינת מגרש דרום־מערב (ליד הפשפש)</td><td class="num">49.06</td><td><span class="tag t-p">מודפס</span> — הנקודה הנמוכה במגרש</td></tr>
+    <tr><td>הקרקע בפתח הפשפש</td><td class="num">≈49.09</td><td><span class="tag t-m">חושב</span> אינטרפולציה 49.06→49.41</td></tr>
+    <tr><td>הקרקע במפרץ החנייה</td><td class="num">≈49.41–49.44</td><td><span class="tag t-m">חושב</span></td></tr>
+    <tr><td>הקרקע בקו הדלת (על הגבול המערבי)</td><td class="num">≈49.36</td><td><span class="tag t-m">חושב</span> אינטרפולציה 49.06→49.68</td></tr>
+  </tbody>
+  <tfoot>
+    <tr><td>עלייה מהפשפש אל הרצפה</td><td class="num">≈94 ס״מ</td><td>מחושב</td></tr>
+    <tr><td>עלייה מהחנייה אל הרצפה</td><td class="num">≈61 ס״מ</td><td>מחושב</td></tr>
+  </tfoot>
+</table>
+</div>
+
+<div class="card alert">
+  <h4>אזהרה שאסור לעקוף</h4>
+  <p><strong>אין באף תוכנית — לא בגרמושקה ולא באף גיליון שיפוץ — ולו נקודת גובה אחת בתוך החצר הקדמית.</strong> ארבעת המספרים שיש הם פינות המגרש בלבד, והם יושבים על הגבולות, לא ליד הבית.</p>
+  <p>כל שורה שמסומנת ״חושב״ בטבלה למעלה היא <strong>אינטרפולציה לינארית לאורך הגבול</strong>, ולא מדידה. הקרקע צמוד לבית עשויה להיות גבוהה יותר — בתים בדרך כלל יושבים על מילוי — ואז ההפרש קטן ומספיקות 3 מדרגות במקום 4, והשיפועים משתנים.</p>
+  <p><strong>מדידת גבהים בשטח, ברשת של נקודות כל 3 מ׳ לאורך הגדר הדרומית, לאורך החזית הדרומית של הבית ולאורך הרצועה המערבית, היא תנאי מוקדם ליציקה.</strong> בלעדיה אי אפשר לתמחר מילוי וחציבה, ואי אפשר לקבוע כמה מדרגות יש.</p>
+</div>
+
+<h3>3.1 · למה זה קובע את כל התכנון</h3>
+<p>94 ס״מ על פני מסלול של 12.9 מ׳ הם 7.3% ממוצע — <strong>שיפוע שאי אפשר ללכת בו כשביל</strong>. רמפה תקנית של 5% הייתה דורשת 18.8 מ׳ שאין. לכן המסקנה מחייבת, ולא עניין של טעם:</p>
+<p class="big">מרכזים את רוב הפרש הגובה בגרם מדרגות אחד ליד הדלת, ומשאירים את כל שאר המסלול בשיפוע הליכה של כ־2%.</p>
+
+<div class="tablewrap">
+<table>
+  <thead><tr><th>קטע</th><th class="num">אורך</th><th class="num">הפרש גובה</th><th class="num">שיפוע</th><th>הערכה</th></tr></thead>
+  <tbody>
+    <tr><td>מפתן הדלת</td><td class="num">—</td><td class="num">50.00</td><td class="num">—</td><td>3 ס״מ מתחת לרצפה, לאיטום</td></tr>
+    <tr><td>4 מדרגות × 17 רום</td><td class="num">132</td><td class="num">68</td><td class="num">—</td><td>שלח 33, בהתאם למדרגה הקיימת בבית (רום 15 / שלח 28 <span class="tag t-p">מודפס</span>)</td></tr>
+    <tr><td>ציר מערבי, מרגל המדרגות עד הפשפש</td><td class="num">1068</td><td class="num">23</td><td class="num">2.2%</td><td>עולה צפונה. נוח מאוד</td></tr>
+    <tr><td>זרוע החנייה, מהמפרץ עד הצומת</td><td class="num">1140</td><td class="num">26</td><td class="num">2.3%</td><td>יורד מערבה — גם מנקז לכיוון הנכון</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="small">אם המדידה בשטח תראה 3 מדרגות במקום 4, הציר המערבי עולה ב־40 ס״מ על פני 10.68 מ׳ — 3.7%, עדיין מתחת ל־5% ועדיין נוח. <strong>שתי האפשרויות עובדות</strong>, ולכן אפשר לקבוע את הפריסה עכשיו ולסגור את מספר המדרגות אחרי המדידה.</p>
+
+<h2>4 · שלוש אפשרויות</h2>
+
+<h3>אפשרות א׳ — ציר אחד וזרוע אחת <span class="tag t-c">הצעה</span></h3>
+
+<figure>
+  <div class="svgbox">
+  <svg viewBox="-430 -160 2500 2040" role="img" aria-label="אפשרות א — ציר מערבי וזרוע מהחנייה">
+    <rect x="0" y="0" width="1670" height="1550" fill="var(--surface2)"/>
+    <path class="plot" d="M0,0 L0,1550 L1670,1550 L1670,0"/>
+    <!-- planting bands -->
+    <rect class="plantf" x="0" y="1270" width="1370" height="280"/>
+    <rect class="plantf" x="450" y="1067" width="920" height="83"/>
+    <rect class="plantf" x="300" y="337" width="150" height="730"/>
+    <!-- concrete: carport bay -->
+    <rect class="conc2" x="1370" y="1150" width="300" height="400"/>
+    <!-- carport arm Y280..400 -> y 1150..1270 -->
+    <rect class="conc" x="230" y="1150" width="1140" height="120"/>
+    <!-- spine X100..230 Y0..1068 -> y 482..1550 -->
+    <rect class="conc" x="100" y="482" width="130" height="1068"/>
+    <!-- steps Y1068..1200 -> y 350..482 -->
+    <rect class="conc" x="100" y="350" width="130" height="132"/>
+    <path class="thin" d="M100,383 L230,383 M100,416 L230,416 M100,449 L230,449"/>
+    <!-- landing X70..300 Y1200..1400 -> y 150..350 -->
+    <rect class="conc" x="70" y="150" width="230" height="200"/>
+    <!-- house -->
+    <path class="house" d="M450,1067 L1220,1067 L1220,-40 L300,-40 L300,337 L450,337 Z"/>
+    <!-- door -->
+    <path d="M300,314 L300,204" stroke="var(--accent)" stroke-width="18"/>
+    <text class="lt" x="185" y="255" text-anchor="middle">מפתן</text>
+    <text class="lm" x="185" y="295" text-anchor="middle">230 × 200</text>
+    <text class="lm" x="60" y="416" text-anchor="start">4 מדרגות</text>
+    <!-- gates -->
+    <path d="M100,1550 L230,1550" stroke="var(--accent)" stroke-width="16"/>
+    <path d="M1180,1550 L1660,1550" stroke="var(--accent)" stroke-width="16"/>
+    <text class="lm" x="165" y="1620" text-anchor="middle">פשפש 130</text>
+    <text class="lm" x="1420" y="1620" text-anchor="middle">שער רכב 480</text>
+    <text class="lt" x="1520" y="1370" text-anchor="middle">חנייה</text>
+    <!-- building line -->
+    <path class="bldline" d="M0,1150 L1670,1150"/>
+    <!-- labels -->
+    <text class="lt" x="800" y="1228" text-anchor="middle">זרוע החנייה — רוחב 120</text>
+    <text class="lt" x="55" y="900" text-anchor="middle" transform="rotate(-90 55 900)">ציר השער — רוחב 130</text>
+    <text class="lm" x="760" y="1115" text-anchor="middle">ערוגה 83 לאורך כל החזית</text>
+    <text class="lm" x="700" y="1545" text-anchor="middle">גינה קדמית — עומק 280</text>
+    <!-- dims -->
+    <path class="dim" d="M100,1620 L230,1620 M100,1600 L100,1640 M230,1600 L230,1640"/>
+    <path class="dims" d="M-80,482 L-80,1550 M-100,482 L-60,482 M-100,1550 L-60,1550"/>
+    <text class="ls" x="-130" y="1020" text-anchor="middle" transform="rotate(-90 -130 1020)">1068</text>
+    <path class="dims" d="M230,1460 L1370,1460 M230,1440 L230,1480 M1370,1440 L1370,1480"/>
+    <text class="ls" x="800" y="1430" text-anchor="middle">1140</text>
+    <path class="dim" d="M1760,1150 L1760,1550 M1740,1150 L1780,1150 M1740,1550 L1780,1550"/>
+    <text class="lp" x="1810" y="1360" text-anchor="middle" transform="rotate(-90 1810 1360)">400</text>
+    <path class="thin" d="M300,-40 L1220,-40" stroke-dasharray="20 14"/>
+    <!-- flow arrows -->
+    <path class="arw" d="M1300,1210 L420,1210" stroke-dasharray="18 14" opacity=".55"/>
+    <path class="arw" d="M165,1480 L165,560" stroke-dasharray="18 14" opacity=".55"/>
+  </svg>
+  </div>
+  <figcaption><strong>אפשרות א׳.</strong> הקצה הצפוני של זרוע החנייה יושב בדיוק על קו הבניין הדרומי (400, מודפס) — כך יש נקודת סימון אחת בשטח שאי אפשר לטעות בה. בין הזרוע לקיר הבית נשארת ערוגה רציפה של 83 ס״מ שעוברת מתחת לחלון הממ״ד, ובין הזרוע לגדר הרחוב נשארת גינה קדמית בעומק 280.</figcaption>
+</figure>
+
+<div class="grid2">
+  <div class="card good"><h4>בעד</h4>
+    <ul>
+      <li>הכי מעט בטון — <strong>46 מ״ר</strong> כולל מפרץ החנייה.</li>
+      <li>כל הפרש הגובה מרוכז בגרם אחד, ליד הדלת, במקום שבו ממילא מגיעים לעצור.</li>
+      <li>הבטון נוגע בקיר הבית רק בקצה המפתן — 2.00 מ׳ בלבד של תפר בידוד מול טיח חדש.</li>
+      <li>ערוגה רציפה של 83 ס״מ לאורך כל החזית הדרומית — מרככת את החזית ומרחיקה מים מהקיר.</li>
+      <li>רוחב הציר = רוחב הפשפש = 130. הגיאומטריה מסבירה את עצמה בשטח.</li>
+      <li>שדות התפרים יוצאים מלבניים ונקיים, 1:1.36 עד 1:1.42.</li>
+    </ul>
+  </div>
+  <div class="card note"><h4>נגד</h4>
+    <ul>
+      <li>מהרכב עד הדלת ≈19.5 מ׳ — המסלול הארוך מבין השלושה.</li>
+      <li>קניות מהרכב עוברות מסביב לכל הבית (אלא אם מוסיפים שלוחה לדלת המזרחית).</li>
+      <li>הזרוע חוצה את החצר הקדמית ומחלקת אותה לשתי רצועות — צריך להחליט מה קורה בשתיהן.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card alert">
+  <h4>לפני האפשרות השנייה — למה <em>אין</em> כאן אלכסון</h4>
+  <p>הרעיון הראשון שכל אחד מציע הוא שביל אלכסוני קצר מהחנייה ישר אל הדלת. בדקתי אותו גיאומטרית, והוא <strong>לא קיים</strong>:</p>
+  <p>הקו הישר מפינת החנייה הצפון־מערבית (X=1370, Y=400) אל רגל המדרגות (X=165, Y=1000) <strong>נכנס אל תוך מעטפת הבית כבר ב־X=1200, Y=485</strong> — כלומר 20 ס״מ אחרי שהוא עוזב את החנייה — ובקו של הקיר המערבי של האגף הדרומי (X=450) הוא כבר נמצא ב־Y=858, עמוק בתוך הבית.</p>
+  <p><strong>הפינה הדרום־מערבית של הבית חוסמת את האלכסון.</strong> החצר הקדמית היא רצועה בעומק 483 בלבד לכל רוחב המגרש, ולכן כל תנועה מהחנייה מערבה היא כמעט אופקית ממילא — אין מה ״לקצר״. ההליכה מהרכב אל הדלת היא ≈19.5 מ׳ בכל אחת מהאפשרויות, וההבדל ביניהן הוא <strong>איפה עובר הקו, לא כמה הולכים</strong>.</p>
+</div>
+
+<h3>אפשרות ב׳ — הזרוע צמודה לחזית הבית <span class="tag t-c">הצעה</span></h3>
+
+<p>אותה זרוע בדיוק, אבל דחוקה צפונה עד שהקצה הצפוני שלה נוגע בקיר הבית. הצד השני של אותו מטבע: גינה קדמית אחת גדולה במקום שתי רצועות.</p>
+
+<figure>
+  <div class="svgbox">
+  <svg viewBox="-430 -160 2500 2040" role="img" aria-label="אפשרות ב — זרוע צמודה לחזית הבית">
+    <rect x="0" y="0" width="1670" height="1550" fill="var(--surface2)"/>
+    <path class="plot" d="M0,0 L0,1550 L1670,1550 L1670,0"/>
+    <rect class="plantf" x="0" y="1187" width="1370" height="363"/>
+    <rect class="plantf" x="300" y="337" width="150" height="730"/>
+    <rect class="conc2" x="1370" y="1150" width="300" height="400"/>
+    <rect class="conc" x="230" y="1067" width="1140" height="120"/>
+    <rect class="conc" x="100" y="482" width="130" height="1068"/>
+    <rect class="conc" x="100" y="350" width="130" height="132"/>
+    <path class="thin" d="M100,383 L230,383 M100,416 L230,416 M100,449 L230,449"/>
+    <rect class="conc" x="70" y="150" width="230" height="200"/>
+    <path class="house" d="M450,1067 L1220,1067 L1220,-40 L300,-40 L300,337 L450,337 Z"/>
+    <path d="M300,314 L300,204" stroke="var(--accent)" stroke-width="18"/>
+    <path d="M100,1550 L230,1550" stroke="var(--accent)" stroke-width="16"/>
+    <path d="M1180,1550 L1660,1550" stroke="var(--accent)" stroke-width="16"/>
+    <path class="bldline" d="M0,1150 L1670,1150"/>
+    <!-- isolation joint along the wall -->
+    <path d="M450,1067 L1220,1067" stroke="var(--red)" stroke-width="9"/>
+    <text class="lt" x="1520" y="1370" text-anchor="middle">חנייה</text>
+    <text class="lt" x="185" y="255" text-anchor="middle">מפתן</text>
+    <text class="lt" x="800" y="1145" text-anchor="middle">זרוע צמודה לקיר — רוחב 120</text>
+    <text class="lm" x="835" y="1390" text-anchor="middle">גינה קדמית אחת — עומק 363, ≈45 מ״ר</text>
+    <text class="lm" x="1250" y="1040" text-anchor="end">11.40 מ׳ תפר בידוד מול הבית</text>
+    <text class="lt" x="55" y="900" text-anchor="middle" transform="rotate(-90 55 900)">ציר השער — רוחב 130</text>
+    <text class="lm" x="165" y="1620" text-anchor="middle">פשפש 130</text>
+    <text class="lm" x="1420" y="1620" text-anchor="middle">שער רכב 480</text>
+    <path class="thin" d="M300,-40 L1220,-40" stroke-dasharray="20 14"/>
+    <path class="dims" d="M230,1330 L1370,1330 M230,1310 L230,1350 M1370,1310 L1370,1350"/>
+    <text class="ls" x="800" y="1300" text-anchor="middle">1140</text>
+    <path class="dim" d="M1760,1187 L1760,1550 M1740,1187 L1780,1187 M1740,1550 L1780,1550"/>
+    <text class="lp" x="1815" y="1370" text-anchor="middle" transform="rotate(-90 1815 1370)">363</text>
+  </svg>
+  </div>
+  <figcaption><strong>אפשרות ב׳.</strong> שטח הבטון זהה לחלוטין לאפשרות א׳ — 45.9 מ״ר — וגם ההליכה זהה. מה שמשתנה: אין ערוגה בין הבטון לקיר, יש 11.40 מ׳ נוספים של תפר בידוד מול הטיח, ובמקום שתי רצועות גינון נשארת גינה קדמית אחת בעומק 363.</figcaption>
+</figure>
+
+<div class="grid2">
+  <div class="card good"><h4>בעד</h4>
+    <ul>
+      <li><strong>גינה קדמית אחת גדולה</strong> בעומק 3.63 מ׳ ובשטח ≈45 מ״ר, במקום שתי רצועות צרות. הרבה יותר קל לגנן, לנטוע ולהשקות.</li>
+      <li><strong>פחות תבניות.</strong> הקצה הצפוני של הזרוע הוא קיר הבית, ולכן אין שם תבנית: ≈58 מ״א קצה במקום ≈69. חיסכון אמיתי בעבודה.</li>
+      <li>קו הסימון הוא קיר הבית עצמו — הכי קל לסמן בשטח, אי אפשר לטעות.</li>
+      <li>כל הבטון נדחק לשוליים, והמרכז החזותי של החזית נשאר ירוק.</li>
+    </ul>
+  </div>
+  <div class="card note"><h4>נגד</h4>
+    <ul>
+      <li><strong>11.40 מ׳ של בטון צמוד לטיח חדש.</strong> כל המטר הזה צריך תפר בידוד מושלם, ושיפוע רוחבי שמרחיק מים — ואם משהו לא יבוצע נכון, זו רטיבות בקיר.</li>
+      <li>אין ערוגה מתחת לחלון הממ״ד. החזית הדרומית נשארת קיר עירום שיורד ישר לבטון.</li>
+      <li>גובה פני הבטון כאן חייב להישמר 10–15 ס״מ מתחת לרצפה לכל האורך — אילוץ שמתנגש עם השיפוע הטבעי שיורד מערבה.</li>
+      <li>קריאה של ״מעבר שירות״ ולא של ״שביל כניסה״.</li>
+    </ul>
+  </div>
+</div>
+
+<h3>אפשרות ג׳ — הכיכר הקדמית <span class="tag t-c">הצעה</span></h3>
+
+<figure>
+  <div class="svgbox">
+  <svg viewBox="-430 -160 2500 2040" role="img" aria-label="אפשרות ג — כיכר קדמית רצופה">
+    <rect x="0" y="0" width="1670" height="1550" fill="var(--surface2)"/>
+    <path class="plot" d="M0,0 L0,1550 L1670,1550 L1670,0"/>
+    <rect class="plantf" x="450" y="1067" width="920" height="83"/>
+    <rect class="plantf" x="300" y="337" width="150" height="730"/>
+    <rect class="conc" x="0" y="1150" width="1370" height="400"/>
+    <rect class="conc2" x="1370" y="1150" width="300" height="400"/>
+    <rect class="conc" x="100" y="482" width="130" height="668"/>
+    <rect class="conc" x="100" y="350" width="130" height="132"/>
+    <path class="thin" d="M100,383 L230,383 M100,416 L230,416 M100,449 L230,449"/>
+    <rect class="conc" x="70" y="150" width="230" height="200"/>
+    <!-- saw cuts on the court -->
+    <path class="cut" d="M0,1350 L1670,1350 M230,1150 L230,1550 M480,1150 L480,1550 M730,1150 L730,1550 M980,1150 L980,1550 M1230,1150 L1230,1550 M1520,1150 L1520,1550"/>
+    <path class="house" d="M450,1067 L1220,1067 L1220,-40 L300,-40 L300,337 L450,337 Z"/>
+    <path d="M300,314 L300,204" stroke="var(--accent)" stroke-width="18"/>
+    <path d="M100,1550 L230,1550" stroke="var(--accent)" stroke-width="16"/>
+    <path d="M1180,1550 L1660,1550" stroke="var(--accent)" stroke-width="16"/>
+    <path class="bldline" d="M0,1150 L1670,1150"/>
+    <text class="lbig" x="700" y="1330" text-anchor="middle">כיכר רצופה 1670 × 400</text>
+    <text class="lm" x="700" y="1390" text-anchor="middle">כולל מפרץ החנייה = 66.8 מ״ר</text>
+    <text class="lm" x="185" y="255" text-anchor="middle">מפתן</text>
+    <path class="thin" d="M300,-40 L1220,-40" stroke-dasharray="20 14"/>
+  </svg>
+  </div>
+  <figcaption><strong>אפשרות ג׳.</strong> כל הרצועה שבין הגבול הדרומי לקו הבניין הדרומי נוצקת כשדה אחד רצוף, מהגבול המערבי עד הגבול המזרחי, ורק ציר אחד ממשיך צפונה אל הדלת. מקווקו — פריסת תפרי הניסור, שדות של 250×200.</figcaption>
+</figure>
+
+<div class="grid2">
+  <div class="card good"><h4>בעד</h4>
+    <ul>
+      <li>הכי פשוט ליציקה ולפילוס — וזה בדיוק מה שביקשתם מברק במקור: ״שנשמח לצקת שם בטון בשביל שיהיה מפולס״.</li>
+      <li>הרכב יכול לתמרן, להסתובב ולחנות בכל מקום ברצועה.</li>
+      <li>אופניים, קורקינטים, פחי אשפה, אורחים שחונים — הכל עובד בלי שאף אחד ידרוך על גינה.</li>
+      <li>אין שאריות, אין משולשים, אין קצוות חופשיים מיותרים — הכי מעט מ״א תבניות ליחידת שטח.</li>
+      <li>הכי קל לתחזק. אין גינה קדמית שצריך להשקות.</li>
+    </ul>
+  </div>
+  <div class="card note"><h4>נגד</h4>
+    <ul>
+      <li><strong>82 מ״ר</strong> — כמעט כפול מאפשרות א׳, כ־31,000 ₪ במחיר הבסיס מול כ־17,500 ₪.</li>
+      <li>67 מ״ר של בטון אטום ורצוף בחזית הבית. בקיץ זה משטח חם, ובחורף זו כמות מים גדולה שחייבת פתרון ניקוז אמיתי.</li>
+      <li>הבית נראה מהרחוב כחניון ולא כבית עם גינה.</li>
+      <li>שדה של 16.7 מ׳ רוחב דורש תפרי התפשטות ולא רק תפרי כיווץ — זה כבר לא ״עוד קצת בטון״ אלא פרט הנדסי.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="tablewrap">
+<table>
+  <thead><tr><th>השוואה</th><th class="num">א׳ · זרוע באמצע</th><th class="num">ב׳ · זרוע צמודה לקיר</th><th class="num">ג׳ · כיכר</th></tr></thead>
+  <tbody>
+    <tr><td>שטח בטון סה״כ</td><td class="num"><strong>45.9 מ״ר</strong></td><td class="num"><strong>45.9 מ״ר</strong></td><td class="num">81.8 מ״ר</td></tr>
+    <tr><td>מזה — מפרץ החנייה</td><td class="num">12.0</td><td class="num">12.0</td><td class="num">12.0</td></tr>
+    <tr><td>הליכה מהרכב לדלת</td><td class="num">≈19.5 מ׳</td><td class="num">≈19.5 מ׳</td><td class="num">≈18.5 מ׳</td></tr>
+    <tr><td>הליכה מהשער לדלת</td><td class="num">≈13.0 מ׳</td><td class="num">≈13.0 מ׳</td><td class="num">≈13.0 מ׳</td></tr>
+    <tr><td>ניסור תפרי כיווץ</td><td class="num">≈21 מ׳</td><td class="num">≈21 מ׳</td><td class="num">≈39 מ׳</td></tr>
+    <tr><td>קצה חופשי לתבניות</td><td class="num">≈69 מ׳</td><td class="num">≈58 מ׳</td><td class="num"><strong>≈43 מ׳</strong></td></tr>
+    <tr><td><strong>תפר בידוד מול קיר הבית</strong></td><td class="num"><strong>2.0 מ׳</strong></td><td class="num">13.4 מ׳</td><td class="num">2.0 מ׳</td></tr>
+    <tr><td>שטח גינון שנשאר בחזית</td><td class="num">≈47 מ״ר בשתי רצועות<br><span class="small">2.80 מ׳ + 0.83 מ׳</span></td><td class="num">≈45 מ״ר ברצועה אחת<br><span class="small">3.63 מ׳</span></td><td class="num">0</td></tr>
+    <tr><td>ערוגה מתחת לחלון הממ״ד</td><td class="num">יש, 83 ס״מ</td><td class="num">אין</td><td class="num">יש, 83 ס״מ</td></tr>
+    <tr><td>עלות מוערכת (380 ₪/מ״ר)</td><td class="num">≈17,500 ₪</td><td class="num">≈17,500 ₪</td><td class="num">≈31,100 ₪</td></tr>
+  </tbody>
+  </table>
+</div>
+<p class="small">המחיר לפי 380 ₪ למ״ר <span class="tag t-d">החלטה</span> — המחיר שגל מסר בוואטסאפ 31.05.2026. <strong>הוא לא כולל</strong> את התוספת למדרגות (700 ₪/מ״ר למדרגה מרחפת, לפי אותה הודעה), לא את ההבדל בעובי ובזיון של מפרץ החנייה, ולא עבודות עפר, מילוי וניקוז. זו הערכת סדר גודל להשוואה בין האפשרויות, לא הצעת מחיר.</p>
+
+<h2>5 · תפרים וניסור — אפשרות א׳ בפירוט</h2>
+
+<figure>
+  <div class="svgbox">
+  <svg viewBox="-430 -160 2500 2040" role="img" aria-label="פריסת תפרי ניסור לאפשרות א">
+    <rect x="0" y="0" width="1670" height="1550" fill="var(--surface2)"/>
+    <path class="plot" d="M0,0 L0,1550 L1670,1550 L1670,0"/>
+    <rect class="conc2" x="1370" y="1150" width="300" height="400"/>
+    <rect class="conc" x="230" y="1150" width="1140" height="120"/>
+    <rect class="conc" x="100" y="482" width="130" height="1068"/>
+    <rect class="conc" x="100" y="350" width="130" height="132"/>
+    <rect class="conc" x="70" y="150" width="230" height="200"/>
+    <!-- spine cuts: 6 fields of 178 -->
+    <path class="cut" d="M100,660 L230,660 M100,838 L230,838 M100,1016 L230,1016 M100,1194 L230,1194 M100,1372 L230,1372"/>
+    <!-- arm cuts: 7 fields of 163 -->
+    <path class="cut" d="M393,1150 L393,1270 M556,1150 L556,1270 M719,1150 L719,1270 M882,1150 L882,1270 M1045,1150 L1045,1270 M1208,1150 L1208,1270"/>
+    <!-- carport cuts -->
+    <path class="cut" d="M1520,1150 L1520,1550 M1370,1350 L1670,1350"/>
+    <!-- isolation joints -->
+    <path d="M300,150 L300,350" stroke="var(--red)" stroke-width="9"/>
+    <path d="M1670,1150 L1670,1550" stroke="var(--red)" stroke-width="9"/>
+    <path d="M1370,1150 L1370,1550" stroke="var(--red)" stroke-width="9"/>
+    <path d="M100,1550 L230,1550" stroke="var(--red)" stroke-width="9"/>
+    <path d="M1370,1550 L1660,1550" stroke="var(--red)" stroke-width="9"/>
+    <path class="house" d="M450,1067 L1220,1067 L1220,-40 L300,-40 L300,337 L450,337 Z"/>
+    <path class="thin" d="M300,-40 L1220,-40" stroke-dasharray="20 14"/>
+    <text class="lm" x="330" y="255" text-anchor="end">תפר בידוד מול הבית 2.00 מ׳</text>
+    <text class="lm" x="1520" y="1120" text-anchor="middle">תפר בידוד מלא</text>
+    <text class="lm" x="1520" y="1085" text-anchor="middle">בין מפרץ הרכב לשביל</text>
+    <text class="lm" x="165" y="749" text-anchor="middle" transform="rotate(-90 165 749)">6 שדות 130×178</text>
+    <text class="lm" x="800" y="1330" text-anchor="middle">7 שדות 120×163</text>
+    <text class="lm" x="1520" y="1450" text-anchor="middle">4 שדות</text>
+    <text class="lm" x="1520" y="1490" text-anchor="middle">150×200</text>
+    <!-- legend marks -->
+    <path class="cut" d="M-260,1700 L-140,1700"/>
+    <text class="lm" x="-120" y="1712" text-anchor="end">תפר כיווץ מנוסר</text>
+    <path d="M420,1700 L540,1700" stroke="var(--red)" stroke-width="9"/>
+    <text class="lm" x="560" y="1712" text-anchor="end">תפר בידוד 10 מ״מ</text>
+  </svg>
+  </div>
+  <figcaption>פריסת תפרים. כל שדה יוצא בין 1.96 ל־3.00 מ״ר ובין 1:1.33 ל־1:1.42 יחס צלעות — הרבה בתוך התחום המקובל (עד 1:1.5, ועד כ־9 מ״ר לשדה).</figcaption>
+</figure>
+
+<h3>5.1 · הכללים</h3>
+<div class="tablewrap">
+<table>
+  <thead><tr><th>סוג התפר</th><th>איפה</th><th class="num">כמות</th><th>ביצוע</th></tr></thead>
+  <tbody>
+    <tr><td><strong>תפר כיווץ מנוסר</strong></td><td>ציר: כל 178 (5 תפרים)<br>זרוע: כל 163 (6 תפרים)<br>מפרץ: צלב אחד</td><td class="num">≈21 מ׳</td><td>ניסור בעומק <strong>רבע מעובי המרצף</strong> (2.5–3 ס״מ למרצף 10–12), תוך <strong>6–12 שעות</strong> מהיציקה. מאוחר מזה — הבטון כבר נסדק לבד</td></tr>
+    <tr><td><strong>תפר בידוד</strong></td><td>מול קיר הבית (מפתן, 2.00 מ׳); מול גדר הגבול המזרחית (4.00 מ׳); סביב כל עמוד שער, ארון חשמל, שוחה או בסיס</td><td class="num">≈9 מ׳</td><td>ספוג/פוליסטירן <strong>10 מ״מ לכל העומק</strong>, וסתימה אלסטית בראש. הבטון לא נוגע בטיח ולא בעמוד</td></tr>
+    <tr><td><strong>תפר בידוד מלא בין מפרץ הרכב לשביל</strong></td><td>קו X=1370, לאורך 4.00 מ׳</td><td class="num">4 מ׳</td><td><strong>קריטי.</strong> מרצף רכב בעובי 15 ומרצף הולכי רגל בעובי 10–12 זזים אחרת. חיבור מונוליטי ביניהם ייסדק בוודאות</td></tr>
+    <tr><td><strong>קצה חופשי / תבנית</strong></td><td>כל שפה גלויה של שביל</td><td class="num">≈69 מ׳</td><td>זה הסעיף שמייקר שבילים צרים: הרבה מ״א תבניות לכל מ״ר. <strong>לבקש מגל תמחור נפרד למ״א קצה</strong></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>6 · שיפועים וניקוז</h2>
+
+<div class="card good">
+  <h4>הכיוון הטבעי כבר נתון, וזה מזל</h4>
+  <p>ארבע פינות המגרש <span class="tag t-p">מודפס</span> — 49.68 / 49.63 / 49.41 / <strong>49.06</strong> — מספרות סיפור אחד: <strong>המגרש יורד לפינה הדרום־מערבית.</strong> זו גם הפינה שבה נמצא הפשפש, ולכן כל המים בחצר הקדמית רוצים בטבעיות לזרום לשם. אין צורך להילחם בטופוגרפיה.</p>
+</div>
+
+<div class="tablewrap">
+<table>
+  <thead><tr><th>משטח</th><th>שיפוע רוחבי</th><th>לאן</th><th>הפרש בס״מ</th></tr></thead>
+  <tbody>
+    <tr><td>ציר השער (130 רוחב)</td><td class="num">1.5%</td><td>מערבה, אל רצועת הגינון שלאורך הגבול</td><td class="num">2.0</td></tr>
+    <tr><td>זרוע החנייה (120 רוחב)</td><td class="num">1.5%</td><td>דרומה, <strong>הרחק מקיר הבית</strong></td><td class="num">1.8</td></tr>
+    <tr><td>מפתן הדלת (200 עומק)</td><td class="num">1.5%</td><td>מערבה, מהדלת החוצה</td><td class="num">3.0</td></tr>
+    <tr><td>מפרץ החנייה (400 עומק)</td><td class="num">2.0%</td><td><strong>דרומה אל השער והרחוב</strong> — כדי שמי שטיפת הרכב ומי הגשם ייצאו ולא ייכנסו לחצר</td><td class="num">8.0</td></tr>
+    <tr><td>מדרגות הכניסה</td><td class="num">1.5%</td><td>קדימה על כל שלח</td><td class="num">0.5 לשלח</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>6.1 · ולאן הכל הולך בסוף</h3>
+<div class="card alert">
+  <h4>אין שוחה, אין קולטן ואין נקודת ניקוז באף תוכנית של המגרש הזה <span class="tag t-m">חסר</span></h4>
+  <p>בדקתי את כל גיליונות הגרמושקה ואת תוכניות האינסטלציה. <strong>אין סימון של שוחת חצר, קולטן, תעלת ניקוז או מחלחל בשום מקום.</strong> זה לא פרט שאפשר ״לסגור בשטח ביום היציקה״ — אחרי היציקה הוא עולה פי כמה.</p>
+  <p>שלוש אפשרויות, וצריך לבחור אחת <strong>לפני</strong> שגל מתמחר:</p>
+  <ol>
+    <li><strong>רצועת חלחול חצץ</strong> ברוחב 40 ס״מ לאורך הגבול המערבי, מהפשפש צפונה כ־4 מ׳. הכי זול, הכי פשוט, מתאים בדיוק לפינה הנמוכה. דורש קרקע מחלחלת — לא נבדק.</li>
+    <li><strong>תעלת ניקוז לינארית</strong> ברוחב הפשפש (130), ממש במפתן השער, עם יציאה לרחוב. הכי בטוח, הכי יקר, ודורש לדעת <strong>לאן מנקז הרחוב</strong> — לא ידוע.</li>
+    <li><strong>הטיית הכל לגינה הקדמית</strong> — לתת לבטון לשפוך אל שטח הגינון של 280 ס״מ עומק ולתת לקרקע לבלוע. עובד רק אם הגינה תישאר מחלחלת ולא תכוסה בדשא סינתטי על מצע אטום.</li>
+  </ol>
+  <p><strong>דבר אחד אסור:</strong> שמפלס המים ייעצר בנישת פח האשפה או במפתן הפשפש. שתי הנקודות האלה נמצאות בדיוק בפינה הנמוכה.</p>
+</div>
+
+<h2>7 · פרטי קצה — איפה הבטון נפגש בכל דבר אחר</h2>
+
+<figure>
+  <div class="svgbox">
+  <svg class="dtl" viewBox="0 0 920 1700" role="img" aria-label="חמישה פרטי קצה בחתך">
+    <style>
+      .dtl .h{font-size:27px;font-weight:800;fill:var(--accent)}
+      .dtl .n{font-size:22px;fill:var(--ink)}
+      .dtl .c{font-size:20px;fill:var(--muted)}
+      .dtl .b{font-weight:700}
+      .dtl .sep{stroke:var(--line);stroke-width:2}
+    </style>
+
+    <!-- D1 -->
+    <text class="h" x="880" y="38">פרט 1 · בטון מול ערוגת נטיעה</text>
+    <rect x="500" y="112" width="160" height="68" fill="var(--plant)" opacity=".45"/>
+    <rect x="660" y="90" width="220" height="36" fill="var(--concrete)" stroke="var(--house-line)" stroke-width="3"/>
+    <rect x="660" y="126" width="46" height="56" fill="var(--concrete)" stroke="var(--house-line)" stroke-width="3"/>
+    <path d="M500,182 L880,182" stroke="var(--house-line)" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="c" x="860" y="115">בטון 10–12</text>
+    <text class="c" x="640" y="105">קומפוסט / חיפוי</text>
+    <text class="c" x="640" y="172">עיבוי 20</text>
+    <text class="n" x="880" y="228">שפת הבטון <tspan class="b">4 ס״מ מעל</tspan> פני החיפוי. פאה אנכית, פאזה 5 מ״מ.</text>
+    <text class="n" x="880" y="262">עיבוי תחתון של 20 ס״מ מונע תת־חפירה וקריסת השפה.</text>
+    <path class="sep" d="M40,310 L880,310"/>
+
+    <!-- D2 -->
+    <text class="h" x="880" y="390">פרט 2 · בטון מול דשא</text>
+    <rect x="500" y="442" width="152" height="14" fill="var(--plant-2)"/>
+    <rect x="500" y="456" width="152" height="34" fill="var(--surface3)" stroke="var(--house-line)" stroke-width="2"/>
+    <rect x="652" y="440" width="12" height="52" fill="var(--accent)"/>
+    <rect x="664" y="442" width="216" height="48" fill="var(--concrete)" stroke="var(--house-line)" stroke-width="3"/>
+    <text class="c" x="860" y="472">בטון</text>
+    <text class="c" x="620" y="432">דשא</text>
+    <text class="c" x="560" y="522">מצע</text>
+    <text class="n" x="880" y="560">הבטון <tspan class="b">1 ס״מ בלבד מעל</tspan> פני הדשא — לא יותר, אחרת נוצר מדרך.</text>
+    <text class="n" x="880" y="594">בדשא סינתטי: סרגל קיבוע (כתום) <tspan class="b">מוברג לפאת הבטון</tspan>, לא יתד באדמה.</text>
+    <path class="sep" d="M40,640 L880,640"/>
+
+    <!-- D3 -->
+    <text class="h" x="880" y="718">פרט 3 · בטון מול קיר הבית</text>
+    <rect x="820" y="756" width="60" height="140" fill="var(--house)" stroke="var(--house-line)" stroke-width="3"/>
+    <rect x="808" y="800" width="12" height="52" fill="var(--red)"/>
+    <rect x="580" y="800" width="228" height="52" fill="var(--concrete)" stroke="var(--house-line)" stroke-width="3"/>
+    <path d="M560,762 L820,762" stroke="var(--ok)" stroke-width="3"/>
+    <text class="c" x="800" y="752" fill="var(--ok)">±0.00 = 50.03</text>
+    <text class="c" x="770" y="832">בטון</text>
+    <text class="c" x="800" y="912">קיר הבית</text>
+    <text class="n" x="880" y="928">תפר בידוד <tspan class="b">10 מ״מ לכל העומק</tspan> + סתימה אלסטית בראש.</text>
+    <text class="n" x="880" y="962">פני הבטון <tspan class="b">10–15 ס״מ מתחת</tspan> לרצפה הגמורה — כלומר ≈49.88–49.93.</text>
+    <text class="n" x="880" y="996">לא יוצקים על הטיח. אף פעם.</text>
+    <path class="sep" d="M40,1040 L880,1040"/>
+
+    <!-- D4 -->
+    <text class="h" x="880" y="1118">פרט 4 · מפרץ הרכב מול השביל</text>
+    <rect x="690" y="1156" width="190" height="66" fill="var(--concrete-2)" stroke="var(--house-line)" stroke-width="3"/>
+    <rect x="678" y="1152" width="12" height="74" fill="var(--red)"/>
+    <rect x="500" y="1166" width="178" height="48" fill="var(--concrete)" stroke="var(--house-line)" stroke-width="3"/>
+    <text class="c" x="870" y="1196">15 + רשת</text>
+    <text class="c" x="660" y="1198">10–12</text>
+    <text class="n" x="880" y="1266">שני מרצפים <tspan class="b">נפרדים לגמרי</tspan> — עוביים שונים, תנועה שונה.</text>
+    <text class="n" x="880" y="1300">תפר בידוד מלא לכל העומק. חיבור מונוליטי ייסדק, בוודאות.</text>
+    <path class="sep" d="M40,1346 L880,1346"/>
+
+    <!-- D5 -->
+    <text class="h" x="880" y="1420">פרט 5 · מדרגת הכניסה — חזית סגורה, צל בצדדים בלבד</text>
+    <rect x="700" y="1452" width="180" height="40" fill="var(--concrete)" stroke="var(--house-line)" stroke-width="3"/>
+    <rect x="700" y="1492" width="180" height="42" fill="var(--concrete-2)" stroke="var(--house-line)" stroke-width="3"/>
+    <text class="c" x="880" y="1566">מבט מהחזית · פאה אנכית מלאה</text>
+    <rect x="420" y="1452" width="180" height="40" fill="var(--concrete)" stroke="var(--house-line)" stroke-width="3"/>
+    <rect x="460" y="1492" width="140" height="42" fill="var(--concrete-2)" stroke="var(--house-line)" stroke-width="3"/>
+    <rect x="420" y="1492" width="40" height="42" fill="none" stroke="var(--house-line)" stroke-width="2" stroke-dasharray="7 5"/>
+    <text class="c" x="600" y="1566">מבט מהצד · נסיגה 6–8 → ריחוף</text>
+    <text class="n" x="880" y="1612">בחזית אין חלל מתחת לאף המדרגה — נסיגה בכיוון ההליכה היא מכשול מעידה.</text>
+    <text class="n" x="880" y="1646">מתחת לחריץ הצל: חצץ מנקז, לא אדמה. אחרת אחרי חורף אחד יש שם בוץ וטחב.</text>
+    <text class="n" x="880" y="1680">החלטה קיימת: ״הבסיס הנסוג פנימה זה רק יכול לעשות בעיות של למעוד״.</text>
+  </svg>
+  </div>
+  <figcaption>חמשת פרטי הקצה. פרט 5 חוזר על ההחלטה שכבר התקבלה במסמך המדרגות המערביות (9.9.2026) ואין לשנות אותה.</figcaption>
+</figure>
+
+<h2>8 · כתב כמויות לגל בטון</h2>
+
+<p>לפי <strong>אפשרות א׳ המומלצת</strong>. כל שורה מציינת מאיזה סוג מקור נגזרה כל מידה.</p>
+
+<div class="tablewrap">
+<table>
+  <thead><tr><th>סעיף</th><th class="num">מידות (ס״מ)</th><th class="num">מ״ר</th><th>מקור המידות</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><strong>מפרץ חנייה</strong> — פינה דרום־מזרחית</td>
+      <td class="num">300 × 400</td><td class="num">12.00</td>
+      <td>שתיהן <span class="tag t-p">מודפס</span> — נסיגת קו הבניין המזרחי 300 וקו הבניין הדרומי 400. אומת <span class="tag t-s">משורטט</span> מול המלבן האדום בגרמושקה (סטייה &lt;1%)</td>
+    </tr>
+    <tr>
+      <td><strong>זרוע החנייה</strong> — מהמפרץ עד הציר</td>
+      <td class="num">120 × 1140</td><td class="num">13.68</td>
+      <td>אורך 1140 נגזר: 1370 <span class="tag t-p">מודפס</span> פחות 230 <span class="tag t-s">משורטט</span>. רוחב 120 <span class="tag t-c">הצעה</span></td>
+    </tr>
+    <tr>
+      <td><strong>ציר השער</strong> — מהפשפש עד רגל המדרגות</td>
+      <td class="num">130 × 1068</td><td class="num">13.88</td>
+      <td>רוחב 130 = רוחב הפשפש <span class="tag t-p">מודפס</span>. אורך 1068 <span class="tag t-c">הצעה</span> (נגזר ממיקום הדלת <span class="tag t-s">≈807 מהקיר הדרומי</span>)</td>
+    </tr>
+    <tr>
+      <td><strong>מדרגות כניסה</strong> — 4 רומים × 17</td>
+      <td class="num">130 × 132</td><td class="num">1.72</td>
+      <td><span class="tag t-c">הצעה</span>, נגזר מהפרש גובה <span class="tag t-m">מחושב</span> ≈67. <strong>מספר המדרגות ייסגר רק אחרי מדידת גבהים</strong></td>
+    </tr>
+    <tr>
+      <td><strong>מפתן הדלת</strong></td>
+      <td class="num">230 × 200</td><td class="num">4.60</td>
+      <td><span class="tag t-c">הצעה</span>. חייב לכסות את פתח הדלת ≈110 <span class="tag t-s">משורטט</span></td>
+    </tr>
+    <tr>
+      <td>רחבת צומת מורחבת (אופציונלי)</td>
+      <td class="num">230 × 200 נטו</td><td class="num">+3.04</td>
+      <td><span class="tag t-c">הצעה</span> — מקום עמידה לפחי אשפה / ספסל</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><td><strong>סה״כ בטון מוחלק — החצר הקדמית</strong></td><td class="num"></td><td class="num"><strong>45.88 מ״ר</strong></td><td>בלי הרחבת הצומת</td></tr>
+    <tr><td>מזה — שבילים והולכי רגל בלבד (בלי מפרץ הרכב)</td><td class="num"></td><td class="num">33.88 מ״ר</td><td>עובי 10–12</td></tr>
+  </tfoot>
+</table>
+</div>
+
+<h3>8.1 · מטרים רצים</h3>
+<div class="tablewrap">
+<table>
+  <thead><tr><th>סעיף</th><th class="num">מ״א</th><th>הערה</th></tr></thead>
+  <tbody>
+    <tr><td>קצה חופשי / תבניות</td><td class="num">≈69</td><td>1.5 מ״א קצה לכל מ״ר — יחס גבוה, אופייני לשבילים צרים. סעיף תמחור נפרד</td></tr>
+    <tr><td>ניסור תפרי כיווץ</td><td class="num">≈21</td><td>ציר 6.5 · זרוע 7.2 · מפרץ 7.0</td></tr>
+    <tr><td>תפר בידוד מול קירות, גדרות ועמודים</td><td class="num">≈9</td><td>כולל 4 עמודי שער</td></tr>
+    <tr><td>תפר בידוד מלא מפרץ רכב ↔ שביל</td><td class="num">4</td><td>לא לוותר עליו</td></tr>
+    <tr><td>פאות מדרגה גלויות</td><td class="num">≈7.8</td><td>4 רומים × 1.30 + 2 צדדים × 1.32</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>8.2 · מבנה המרצף</h3>
+<div class="tablewrap">
+<table>
+  <thead><tr><th></th><th>שבילים ומפתן</th><th>מפרץ החנייה</th></tr></thead>
+  <tbody>
+    <tr><td>תשתית</td><td>מצע סוג א׳ מהודק בשכבות, 15–20 ס״מ</td><td>מצע סוג א׳ מהודק בשכבות, <strong>20 ס״מ</strong></td></tr>
+    <tr><td>עובי מרצף</td><td>10–12 ס״מ</td><td><strong>15 ס״מ</strong></td></tr>
+    <tr><td>זיון</td><td>רשת או סיבים, לפי שיטת גל</td><td>רשת פלדה — <strong>לא סיבים בלבד</strong></td></tr>
+    <tr><td>גימור</td><td>מוחלק (הליקופטר)</td><td>מוחלק עם מרקם מונע החלקה — ראו שאלה 5 לגל</td></tr>
+    <tr><td>אשפרה</td><td colspan="2">7 ימים לפחות + סילר בסיום. בספטמבר–אוקטובר זה מה שקובע אם הגוון יוצא אחיד</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>9 · מה חייב להיות מושחל <em>לפני</em> היציקה</h2>
+<div class="card alert">
+  <p>אחרי היציקה כל אחד מהסעיפים האלה הופך לקידוח יהלום במשטח מוחלק חדש. כולם נמצאים בהתכתבות שלכם, אף אחד מהם לא מסומן על תוכנית:</p>
+  <ul>
+    <li><strong>עמדת טעינה לרכב חשמלי</strong> + חשמל לשער, לשני צדי החנייה — רועי, 26.06.2026 <span class="tag t-d">החלטה</span></li>
+    <li><strong>ניקוז מעבה המזגן</strong> שיושב ״סמוך לחניה״ — נופר, 19.06.2026 <span class="tag t-d">החלטה</span></li>
+    <li><strong>ברז גן / צינור לשטיפת הרכב</strong> שמגיע לחנייה — נופר, 15.03.2026 <span class="tag t-d">החלטה</span></li>
+    <li><strong>מסילת / פס השער הנגרר</strong> — שער נגרר ברוחב 480 דורש מסילה או קורת נגד לאורך הגדר בתוך המגרש. <span class="tag t-m">חסר</span> — לא ידוע איזו מערכת נבחרה, וזה משנה את פני הבטון במפרץ</li>
+    <li><strong>שרוולי השקיה</strong> לחציית הזרוע והציר אל שתי רצועות הגינון</li>
+    <li><strong>שרוול ריק אחד לתאורה</strong> — התאורה ירדה מהפרק (״נוותר על תאורה כרגע, אפשר תמיד לעשות משהו סולארי בהמשך״), אבל שרוול ריק עולה מאות בודדות עכשיו ואפס אחר כך</li>
+  </ul>
+</div>
+
+<h2>10 · שאלות פתוחות</h2>
+
+<h3>לנופר</h3>
+<ol class="q">
+  <li><span class="qfor">כיסוי הקרקע</span><strong>מה יש בחצר הקדמית בין השבילים?</strong> דשא טבעי, דשא סינתטי, חצץ או ערוגות נטיעה? אין לזה תשובה בשום קובץ, והיא משנה את פרט הקצה (פרט 1 מול פרט 2), את גובה שפת הבטון ואת פתרון הניקוז.</li>
+  <li><span class="qfor">מ־08.05.2026, לא נענה</span><strong>״אני נוטה להעיף את הכל שם ואז צריך לחשוב אם ממשיכים את הבטון המוחלק לשם״</strong> — האם האבנים הקיימות בכניסה יוצאות, והאם הבטון המוחלק ממשיך לשם? זה בדיוק מה שאפשרות א׳ מניחה.</li>
+  <li><span class="qfor">הגילוי החדש במסמך הזה</span><strong>הדלת המזרחית.</strong> יש דלת חוץ בחזית המזרחית (≈75 רוחב, העמדה 21.08.26), ומאחוריה המזווה והמטבח. מהחנייה אליה זה ≈8 מ׳ במקום ≈19.5 מ׳ אל הדלת המערבית. <strong>האם רוצים שלוחה קצרה מהחנייה צפונה אל הדלת הזו?</strong> זו דרך הקניות האמיתית.</li>
+  <li><span class="qfor">תלוי בשאלה 3</span><strong>חצר המשק והגדר H-150.</strong> בגרמושקה מסומנת חצר משק מגודרת בקיר בטון H-150 בין הבית לקו הבניין המזרחי. <span class="tag t-m">חסר</span> — לא ידוע אם היא נבנית. אם כן, שלוחה מהחנייה לדלת המזרחית חסומה.</li>
+  <li><span class="qfor">מ־16.03.2026</span><strong>הגדר החיה בחזית.</strong> רועי כתב ״יש שם כרגע גדר חיה בחזית שנראה לי שנשאיר״. אם היא נשארת, היא קובעת את עומק הגינון הקדמי ואת המרחק של הזרוע מהגדר.</li>
+  <li><span class="qfor">מהגרמושקה</span><strong>נישת פח האשפה.</strong> בחזית הגדר הדרומית מסומנת ״נישה פח אשפה״ מערבית לפשפש — בדיוק בפינה הנמוכה של המגרש. נשארת? ואם כן, איך היא לא מתמלאת מים?</li>
+  <li><span class="qfor">מ־28.05 ו־12.08.2026</span><strong>מוחלק או מוטבע?</strong> ההזמנה אצל גל כתובה ״<strong>בלגית</strong> גוון E בכניסה״ — ו״בלגית״ היא דוגמת <em>הטבעה</em>, לא גימור מוחלק. כל ההתכתבות מדברת על בטון מוחלק. זה משנה מחיר, עובי, זמן עבודה ומראה. <strong>לסגור לכל אזור בנפרד.</strong></li>
+  <li><span class="qfor">נגרר מהמסמך הקודם, עדיין פתוח</span><strong>מטר או שניים בקצה המזרחי?</strong> ההחלטה המקורית דיברה על ״עד מטר לפני קצה הבית״ בלי לומר איזה קצה. ההודעה מ־8.9 הוסיפה מטר דשא בקצה <em>הצפוני</em>. אם המטר הדרומי מיותר, היציקה המזרחית חוזרת מ־<strong>13.20 מ׳ / 59.4 מ״ר</strong> ל־<strong>14.20 מ׳ / 63.9 מ״ר</strong>. שאלת כן/לא אחת, וצריך לענות עליה לפני שגל מתמחר.</li>
+</ol>
+
+<h3>לגל בטון</h3>
+<ol class="q">
+  <li><strong>עובי וזיון</strong> — 15 ס״מ + רשת למפרץ הרכב מול 10–12 לשבילים. מאשר? ומאשר שביניהם תפר בידוד מלא ולא חיבור?</li>
+  <li><strong>מ״א קצה</strong> — 69 מ״א תבניות על 46 מ״ר. זה יחס גבוה. האם 380 ₪/מ״ר מכסה את זה, או שיש תוספת למ״א?</li>
+  <li><strong>ניסור</strong> — מי מנסר, מתי (6–12 שעות), ובאיזה עומק? רבע מהעובי?</li>
+  <li><strong>גוון אחיד</strong> — האם אפשר לצקת את שבילי הכניסה, המדרגות והמשטח המזרחי <strong>באותו שבוע ומאותה תערובת</strong>? ההבדל בין האזורים צריך להיות בדוגמה, לא בגוון.</li>
+  <li><strong>החלקה</strong> — בטון מוחלק בהליקופטר, בחוץ, בשיפוע 2%, רטוב. מה הפתרון? מרקם מוברש, גימור מלח, תוסף אנטי־החלקה או סילר מחוספס? <strong>במפרץ החנייה ובקטע העולה זו לא שאלה תיאורטית.</strong></li>
+  <li><strong>עוגני מאחז יד</strong> — אם מחליטים על מאחז יד ליד 4 המדרגות (״הבעיה היא המבוגרים — פתאום אין להם במה לאחוז״), העוגן חייב להיות יצוק. אי אפשר להוסיף אחר כך בלי לפגוע במשטח.</li>
+  <li><strong>שרוולים</strong> — מי משחיל את הסעיפים בפרק 9, והאם זה בתוך המחיר?</li>
+  <li><strong>גישה ליום היציקה</strong> — המחסן פורק ו״יש מעבר מהחניה לשער״ (08.08.2026). האם מערבל נכנס דרך פתח השער של 480, או שצריך משאבה? זה סעיף מחיר.</li>
+  <li><strong>סדר מול המשטח המזרחי</strong> — הוזכר במסמך הקודם: המשטח המזרחי הוא ציר הגישה היחיד למחפרון של הבריכה. שבילי הכניסה <strong>אינם</strong> על אותו ציר, ולכן <strong>אפשר לצקת אותם עכשיו גם אם המשטח המזרחי ממתין להכרעה על הבריכה.</strong> זו הזדמנות לפרק את הפלונטר.</li>
+</ol>
+
+<h2>11 · מה לא הצלחתי לקבוע — במפורש</h2>
+<div class="card alert">
+  <ul>
+    <li><strong>אף מפלס קרקע בתוך החצר הקדמית.</strong> קיימות ארבע נקודות גובה בלבד, כולן על פינות המגרש. כל מספר גובה במסמך שאינו אחד מארבעתן הוא אינטרפולציה. <strong>מספר המדרגות, השיפועים ועומק המילוי אינם סגורים עד שיש מדידה.</strong></li>
+    <li><strong>מיקום מדויק של משקופי הפשפש והשער.</strong> ה־130 וה־480 מודפסים ואמינים. המרחקים שלהם מהגבולות משורטטים בלבד (≈100 מהגבול המערבי, ≈10 מהמזרחי), והסתירה 943/880 בין שני גיליונות של אותה גרמושקה מוסיפה אי־ודאות של עד ±60 ס״מ. <strong>קו הסימון של הציר המערבי חייב להימדד מהמשקוף עצמו בשטח.</strong></li>
+    <li><strong>כל נקודת ניקוז.</strong> אין שוחה, קולטן, תעלה או מחלחל בשום תוכנית של המגרש, וגם לא ידוע לאן מנקז הרחוב מול הפשפש.</li>
+    <li><strong>גובה אדן חלון הממ״ד ורוחבו.</strong> לא נמדד. אם השביל או הערוגה אמורים לעבור מתחתיו — צריך את המידה הזו. לא ניחשתי אותה.</li>
+    <li><strong>נסיגת האגף הדרומי.</strong> הגרמושקה מדפיסה <span class="tag t-p">150</span>. ההעמדה מ־21.08.26 נותנת <span class="tag t-s">≈171</span> — הפרש של 21 ס״מ, כנראה קיר חוץ חדש. זה משנה את רוחב המעבר ליד גינת הסלעים. <strong>לא הכרעתי ביניהן.</strong></li>
+    <li><strong>מערכת השער הנגרר</strong> ומה היא דורשת בתוך משטח הבטון (מסילה שקועה? קורת נגד? עמוד קצה?).</li>
+    <li><strong>אם הבטון הקיים/הריצוף בכניסה נשאר או יוצא</strong> — השאלה של יעל מ־08.05.2026 שלא נענתה.</li>
+    <li><strong>שטח מרוצף קדמי בהיתר.</strong> בהצעת א.א קרמיקה המקורית מופיע סעיף ״ריצוף חוץ 50 מ״ר״ שהוקטן בהזמנה הסופית ל־37.44 מ״ר. <span class="tag t-m">חסר</span> — לא ברור אם החצר הקדמית נכללת בו, ולכן לא ברור אם חלק ממנה כבר תומחר כקרמיקה ולא כבטון.</li>
+  </ul>
+</div>
+
+<h2>12 · מקורות</h2>
+<ul class="small">
+  <li><strong>גרמושקה אשל 57 מעודכנת להיתר בנייה 2.1.24</strong> — ״תכנית קומת קרקע״ 1:100, ״תכנית גג״ 1:100 ו״חזית גדר דרומית קדמית״. המקור היחיד לגבולות המגרש, קווי הבניין, מפלסי הפינות, השערים והחנייה. נסרק ונמדד פיקסלית ב־130dpi.</li>
+  <li><strong>העמדה קומת קרקע (21.08.26)</strong>, 1:50 — מיקום דלת הכניסה, דלת השירות המזרחית, אבני המדרך המתומנות, מעטפת הבית לאחר השיפוץ.</li>
+  <li><strong>קרקע — בינוי והריסה (13.04.2026)</strong>, 1:50 — חתך המדרגה (רום 15 / שלח 28, מודפס).</li>
+  <li><strong>ייצוא הוואטסאפ של קבוצת השיפוץ</strong>, 4,266 הודעות עד 12.09.2026 — מקור כל ההחלטות המסומנות <span class="tag t-d">החלטה</span>. תאריך ושעה מצוינים בכל ציטוט.</li>
+  <li><strong>מסמכים קודמים בסדרה</strong> — ״תוכנית פיתוח לגינה״ (8.9.2026) ו״מדרגות הכניסה המערבית״ (9.9.2026). המסמך הזה משלים אותם ואינו מחליף אותם; ההחלטות שנסגרו בהם נשמרו כלשונן.</li>
+</ul>
+
+<div class="card note" style="margin-top:26px">
+  <p style="margin:0"><strong>הערה על הכתוב בתוכניות עצמן.</strong> על גיליונות ההעמדה כתוב במפורש ״אין לקבוע מידות ישירות מהתכנית״ ו״המידות הינן מידות לבנייה לפני טיח וחיפויי קרמיקה״. לכן כל מספר המסומן <span class="tag t-s">משורטט</span> טוב לתכנון ולתמחור ראשוני ואינו תחליף למדידה. המידות המסומנות <span class="tag t-p">מודפס</span> — גבולות, קווי בניין ומפלסי פינות — נלקחו מהגרמושקה להיתר ואינן משתנות בשיפוץ.</p>
+</div>
+
+</div>
+</body></html>
