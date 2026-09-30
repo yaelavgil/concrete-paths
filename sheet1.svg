@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="cpS1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2970 4200" role="img" aria-label="גיליון 1 — תוכנית פיתוח החצר, אשל 57"><style>.cpS1{background:#fff} .cpS1 text{font-family:"Heebo","Assistant","Arial Hebrew",Arial,sans-serif;fill:#2b2824} .cpS1 .k-paper{fill:#fff;stroke:none} .cpS1 .k-frame{fill:none;stroke:#2b2824;stroke-width:11.399999999999999} .cpS1 .k-plot{fill:none;stroke:#2b2824;stroke-width:4.18;stroke-dasharray:45.599999999999994 13.299999999999999 5.699999999999999 13.299999999999999} .cpS1 .k-fence{fill:#8c857a;stroke:#2b2824;stroke-width:2.09} .cpS1 .k-house{fill:#d8d1c6;stroke:none} .cpS1 .k-wall{fill:url(#cpS1-hatch);stroke:#5f584e;stroke-width:4.18} .cpS1 .k-open{fill:#fff;stroke:none} .cpS1 .k-hl{fill:none;stroke:#5f584e;stroke-width:2.09} .cpS1 .k-conc{fill:url(#cpS1-conc);stroke:#2b2824;stroke-width:4.18} .cpS1 .k-concS{fill:url(#cpS1-concS);stroke:#2b2824;stroke-width:4.18} .cpS1 .k-undec{fill:url(#cpS1-undec);stroke:#5f584e;stroke-width:2.09} .cpS1 .k-plant{fill:url(#cpS1-plant);stroke:#5f584e;stroke-width:2.09} .cpS1 .k-lawn{fill:url(#cpS1-lawn);stroke:none} .cpS1 .k-stone{fill:#c9c0b0;stroke:#5f584e;stroke-width:2.09} .cpS1 .k-nose{stroke:#8a5a2b;stroke-width:11.399999999999999;fill:none;stroke-linecap:butt} .cpS1 .k-roof{fill:none;stroke:#2b2824;stroke-width:2.09;stroke-dasharray:45.599999999999994 13.299999999999999} .cpS1 .k-demo{fill:none;stroke:#b3382c;stroke-width:2.09;stroke-dasharray:13.299999999999999 13.299999999999999} .cpS1 .k-sew{fill:none;stroke:#2f6690;stroke-width:2.09;stroke-dasharray:45.599999999999994 13.299999999999999 5.699999999999999 13.299999999999999} .cpS1 .k-mh{fill:#fff;stroke:#2f6690;stroke-width:4.18} .cpS1 .k-col{fill:#2b2824;stroke:none} .cpS1 .k-thin{fill:none;stroke:#5f584e;stroke-width:2.09} .cpS1 .k-med{fill:none;stroke:#2b2824;stroke-width:4.18} .cpS1 .k-dim,.cpS1 .k-ext{stroke:#2b2824;stroke-width:2.09;fill:none} .cpS1 .k-ext{stroke:#6a635a} .cpS1 .k-tick{stroke:#2b2824;stroke-width:4.18} .cpS1 .k-dt{font-size:40px;font-weight:500} .cpS1 .k-lab{font-size:48px;font-weight:600} .cpS1 .k-labs{font-size:40px;fill:#6a635a} .cpS1 .k-labb{font-size:65px;font-weight:800} .cpS1 .k-lvl{font-size:40px;font-weight:700;fill:#8a5a2b} .cpS1 .k-lvlbox{fill:#fff;stroke:#8a5a2b;stroke-width:2.09} .cpS1 .k-sv{font-size:34px;fill:#6a635a;font-style:italic} .cpS1 .k-svx{stroke:#6a635a;stroke-width:2.09} .cpS1 .k-acc{fill:#8a5a2b} .cpS1 .k-sewt{fill:#2f6690;font-size:34px} .cpS1 .k-cut{stroke:#2b2824;stroke-width:4.18;stroke-dasharray:45.599999999999994 13.299999999999999 5.699999999999999 13.299999999999999;fill:none} .cpS1 .k-cutT{font-size:65px;font-weight:800} .cpS1 .k-arrow{stroke:#8a5a2b;stroke-width:4.18;fill:none} .cpS1 .k-fall{stroke:#2b2824;stroke-width:2.09;fill:none} .cpS1 .k-tb{fill:#fff;stroke:#2b2824;stroke-width:4.18} .cpS1 .k-tbl{stroke:#2b2824;stroke-width:2.09} .cpS1 .k-soil{fill:url(#cpS1-soil);stroke:none} .cpS1 .k-fill{fill:url(#cpS1-fill);stroke:none} .cpS1 .k-gnd{fill:none;stroke:#6a635a;stroke-width:4.18;stroke-dasharray:13.299999999999999 5.699999999999999} .cpS1 .k-bg{fill:#efebe4;stroke:#5f584e;stroke-width:2.09} .cpS1 .k-h2{font-size:38px;font-weight:800} .cpS1 .k-note2{font-size:32px} .cpS1 .k-note{font-size:40px} .cpS1 .k-h{font-size:48px;font-weight:800}</style><defs><pattern id="cpS1-hatch" width="17.099999999999998" height="17.099999999999998" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="17.099999999999998" height="17.099999999999998" fill="#e6e0d6"/><line x1="0" y1="0" x2="0" y2="17.099999999999998" stroke="#5f584e" stroke-width="1.71"/></pattern><pattern id="cpS1-conc" width="49.4" height="49.4" patternUnits="userSpaceOnUse"><rect width="49.4" height="49.4" fill="#d3c9b8"/><circle cx="9.5" cy="13.299999999999999" r="2.4699999999999998" fill="#8f8574"/><circle cx="32.3" cy="36.1" r="2.4699999999999998" fill="#8f8574"/><path d="M24.7,24.7 l7.6,0 l-3.8,-7.6 z" fill="#a39884"/></pattern><pattern id="cpS1-concS" width="49.4" height="49.4" patternUnits="userSpaceOnUse"><rect width="49.4" height="49.4" fill="#e3dccf"/><circle cx="9.5" cy="13.299999999999999" r="2.4699999999999998" fill="#a39884"/><circle cx="32.3" cy="36.1" r="2.4699999999999998" fill="#a39884"/></pattern><pattern id="cpS1-undec" width="30.4" height="30.4" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="30.4" height="30.4" fill="#f4f0e9"/><line x1="0" y1="15.2" x2="30.4" y2="15.2" stroke="#b6ab99" stroke-width="1.71" stroke-dasharray="9.5 9.5"/></pattern><pattern id="cpS1-plant" width="87.39999999999999" height="87.39999999999999" patternUnits="userSpaceOnUse"><rect width="87.39999999999999" height="87.39999999999999" fill="#e3ecd8"/><circle cx="26.599999999999998" cy="26.599999999999998" r="15.2" fill="none" stroke="#7d9a5d" stroke-width="1.71"/><circle cx="64.6" cy="62.699999999999996" r="11.399999999999999" fill="none" stroke="#7d9a5d" stroke-width="1.71"/></pattern><pattern id="cpS1-lawn" width="41.8" height="41.8" patternUnits="userSpaceOnUse"><rect width="41.8" height="41.8" fill="#edf3e3"/><path d="M7.6,22.799999999999997 l5.699999999999999,-13.299999999999999 M26.599999999999998,38.0 l5.699999999999999,-13.299999999999999" stroke="#94ad74" stroke-width="1.71"/></pattern><pattern id="cpS1-soil" width="19.0" height="19.0" patternUnits="userSpaceOnUse"><rect width="19.0" height="19.0" fill="#efe7da"/><circle cx="9.5" cy="9.5" r="2.4699999999999998" fill="#a8998a"/></pattern><pattern id="cpS1-fill" width="19.0" height="19.0" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="19.0" height="19.0" fill="#f1ece3"/><line x1="0" y1="0" x2="0" y2="19.0" stroke="#c7bba8" stroke-width="1.71"/></pattern><marker id="cpS1-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="30.4" markerHeight="30.4" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#2b2824"/></marker><marker id="cpS1-aha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="30.4" markerHeight="30.4" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#8a5a2b"/></marker></defs><rect class="k-paper" x="0" y="0" width="2970" height="4200"/>
+<rect class="k-frame" x="40" y="40" width="2890" height="4120"/>
+<polygon class="k-lawn" points="343.0,3267.0 1987.0,3267.0 1987.0,593.0 343.0,593.0" />
+<polygon class="k-undec" points="343.0,3267.0 1520.0,3267.0 1520.0,2995.0 343.0,2995.0" />
+<polygon class="k-undec" points="583.0,2995.0 1520.0,2995.0 1520.0,2880.0 583.0,2880.0" />
+<polygon class="k-plant" points="820.1,2880.0 1550.6,2880.0 1550.6,2797.0 820.1,2797.0" />
+<polygon class="k-plant" points="583.0,2880.0 800.1,2880.0 800.1,2497.0 583.0,2497.0" />
+<polygon class="k-plant" points="343.0,3267.0 433.0,3267.0 433.0,1286.1 343.0,1286.1" />
+<polygon class="k-plant" points="433.0,2346.8 630.0,2346.8 630.0,1286.1 433.0,1286.1" />
+<polygon class="k-concS" points="1520.0,3267.0 1987.0,3267.0 1987.0,2880.0 1520.0,2880.0" />
+<polygon class="k-concS" points="1570.6,2880.0 1987.0,2880.0 1987.0,1386.1 1570.6,1386.1" />
+<polygon class="k-undec" points="433.0,3267.0 583.0,3267.0 583.0,3001.0 433.0,3001.0" />
+<polygon class="k-conc" points="433.0,3001.0 583.0,3001.0 583.0,2833.0 433.0,2833.0" />
+<polygon class="k-conc" points="433.0,2833.0 583.0,2833.0 583.0,2665.0 433.0,2665.0" />
+<polygon class="k-conc" points="433.0,2665.0 583.0,2665.0 583.0,2497.0 433.0,2497.0" />
+<polygon class="k-conc" points="433.0,2497.0 800.1,2497.0 800.1,2076.5 630.0,2076.5 630.0,2286.6 650.0,2286.6 650.0,2346.8 433.0,2346.8" />
+<polyline class="k-nose" points="433.0,3001.0 583.0,3001.0" />
+<polyline class="k-nose" points="433.0,2833.0 583.0,2833.0" />
+<polyline class="k-nose" points="433.0,2665.0 583.0,2665.0" />
+<polyline class="k-nose" points="433.0,2497.0 800.1,2497.0" />
+<polygon class="k-stone" points="463.0,2315.0 553.0,2315.0 553.0,2270.0 463.0,2270.0" />
+<polygon class="k-stone" points="463.0,2250.0 553.0,2250.0 553.0,2205.0 463.0,2205.0" />
+<polygon class="k-stone" points="463.0,2185.0 553.0,2185.0 553.0,2140.0 463.0,2140.0" />
+<polygon class="k-stone" points="463.0,2120.0 553.0,2120.0 553.0,2075.0 463.0,2075.0" />
+<polygon class="k-stone" points="463.0,2055.0 553.0,2055.0 553.0,2010.0 463.0,2010.0" />
+<polygon class="k-stone" points="463.0,1990.0 553.0,1990.0 553.0,1945.0 463.0,1945.0" />
+<polygon class="k-stone" points="463.0,1925.0 553.0,1925.0 553.0,1880.0 463.0,1880.0" />
+<polygon class="k-stone" points="463.0,1860.0 553.0,1860.0 553.0,1815.0 463.0,1815.0" />
+<polygon class="k-stone" points="463.0,1795.0 553.0,1795.0 553.0,1750.0 463.0,1750.0" />
+<polygon class="k-stone" points="463.0,1730.0 553.0,1730.0 553.0,1685.0 463.0,1685.0" />
+<polygon class="k-stone" points="463.0,1665.0 553.0,1665.0 553.0,1620.0 463.0,1620.0" />
+<polygon class="k-stone" points="463.0,1600.0 553.0,1600.0 553.0,1555.0 463.0,1555.0" />
+<polygon class="k-stone" points="463.0,1535.0 553.0,1535.0 553.0,1490.0 463.0,1490.0" />
+<polygon class="k-stone" points="463.0,1470.0 553.0,1470.0 553.0,1425.0 463.0,1425.0" />
+<polygon class="k-house" points="630.0,1286.1 1570.6,1286.1 1570.6,2797.0 800.1,2797.0 800.1,2076.5 630.0,2076.5" />
+<polygon class="k-wall" points="630.0,2076.5 650.0,2076.5 650.0,1286.1 630.0,1286.1" />
+<polygon class="k-wall" points="630.0,1306.1 1570.6,1306.1 1570.6,1286.1 630.0,1286.1" />
+<polygon class="k-wall" points="1550.6,2797.0 1570.6,2797.0 1570.6,1286.1 1550.6,1286.1" />
+<polygon class="k-wall" points="800.1,2797.0 1570.6,2797.0 1570.6,2777.0 800.1,2777.0" />
+<polygon class="k-wall" points="800.1,2797.0 820.1,2797.0 820.1,2056.5 800.1,2056.5" />
+<polygon class="k-wall" points="630.0,2076.5 820.1,2076.5 820.1,2056.5 630.0,2056.5" />
+<polygon class="k-wall" points="800.1,2880.0 820.1,2880.0 820.1,2797.0 800.1,2797.0" />
+<polygon class="k-wall" points="1550.6,2880.0 1570.6,2880.0 1570.6,2797.0 1550.6,2797.0" />
+<polygon class="k-open" points="675.4,2077.5 775.4,2077.5 775.4,2055.5 675.4,2055.5" />
+<polygon class="k-open" points="799.1,2426.8 821.1,2426.8 821.1,2346.8 799.1,2346.8" />
+<polyline class="k-hl" points="810.1,2426.8 810.1,2346.8" />
+<polyline class="k-hl" points="800.1,2426.8 800.1,2346.8" />
+<polyline class="k-hl" points="820.1,2426.8 820.1,2346.8" />
+<polygon class="k-open" points="629.0,1879.9 651.0,1879.9 651.0,1799.9 629.0,1799.9" />
+<polyline class="k-hl" points="640.0,1879.9 640.0,1799.9" />
+<polyline class="k-hl" points="630.0,1879.9 630.0,1799.9" />
+<polyline class="k-hl" points="650.0,1879.9 650.0,1799.9" />
+<polygon class="k-open" points="629.0,1466.9 651.0,1466.9 651.0,1346.9 629.0,1346.9" />
+<polyline class="k-hl" points="640.0,1466.9 640.0,1346.9" />
+<polyline class="k-hl" points="630.0,1466.9 630.0,1346.9" />
+<polyline class="k-hl" points="650.0,1466.9 650.0,1346.9" />
+<polygon class="k-open" points="1160.0,2798.0 1232.0,2798.0 1232.0,2776.0 1160.0,2776.0" />
+<polyline class="k-hl" points="1160.0,2787.0 1232.0,2787.0" />
+<polyline class="k-hl" points="1160.0,2797.0 1232.0,2797.0" />
+<polyline class="k-hl" points="1160.0,2777.0 1232.0,2777.0" />
+<polygon class="k-open" points="1415.0,2798.0 1545.0,2798.0 1545.0,2776.0 1415.0,2776.0" />
+<polyline class="k-hl" points="1415.0,2787.0 1545.0,2787.0" />
+<polyline class="k-hl" points="1415.0,2797.0 1545.0,2797.0" />
+<polyline class="k-hl" points="1415.0,2777.0 1545.0,2777.0" />
+<polygon class="k-open" points="1549.6,2104.0 1571.6,2104.0 1571.6,2035.0 1549.6,2035.0" />
+<polyline class="k-med" points="675.4,2056.5 675.4,1956.5" />
+<path class="k-thin" d="M675.4,1956.5 A100.0,100.0 0 0 1 775.4,2056.5"/>
+<polygon class="k-col" points="630.0,2346.8 650.0,2346.8 650.0,2286.6 630.0,2286.6" />
+<polygon class="k-roof" points="630.0,2346.8 800.1,2346.8 800.1,2076.5 630.0,2076.5" />
+<polygon class="k-fence" points="326.0,3284.0 2004.0,3284.0 2004.0,3267.0 326.0,3267.0" />
+<polygon class="k-open" points="460.0,3286.0 561.0,3286.0 561.0,3265.0 460.0,3265.0" />
+<polygon class="k-open" points="1520.0,3286.0 1996.0,3286.0 1996.0,3265.0 1520.0,3265.0" />
+<polyline class="k-thin" points="1520.0,3260.0 1996.0,3260.0" />
+<polygon class="k-plot" fill="none" points="330.0,3280.0 330.0,580.0 2000.0,580.0 2000.0,3280.0"/>
+<circle class="k-med" cx="330.0" cy="3280.0" r="20.9"/>
+<circle class="k-med" cx="2000.0" cy="3280.0" r="20.9"/>
+<circle class="k-med" cx="330.0" cy="580.0" r="20.9"/>
+<circle class="k-med" cx="2000.0" cy="580.0" r="20.9"/>
+<polyline class="k-sew" points="1781.0,2186.0 1761.0,2999.0 531.0,3033.0 222.0,3674.0" />
+<circle class="k-mh" cx="531.0" cy="3033.0" r="30.0"/>
+<circle class="k-mh" cx="1761.0" cy="2999.0" r="30.0"/>
+<circle class="k-mh" cx="1781.0" cy="2186.0" r="30.0"/>
+<polyline class="k-demo" points="450.0,2477.0 631.0,2477.0" />
+<polyline class="k-demo" points="450.0,2445.0 631.0,2445.0" />
+<polyline class="k-demo" points="450.0,2412.0 631.0,2412.0" />
+<polyline class="k-demo" points="450.0,2379.0 631.0,2379.0" />
+<text class="k-labb" x="1165.0" y="2030.0" text-anchor="middle" direction="rtl">בית קיים</text>
+<text class="k-labs" x="1165.0" y="2085.0" text-anchor="middle" direction="rtl">לפי העמדה 21.08.26</text>
+<text class="k-lab" x="1165.0" y="2140.0" text-anchor="middle">±0.00 = +50.03</text>
+<text class="k-lab" x="950.0" y="3130.0" text-anchor="middle" direction="rtl">חזית — משטח טרם הוחלט</text>
+<text class="k-labs" x="950.0" y="3180.0" text-anchor="middle" direction="rtl">אבני מדרך / דשא סינתטי</text>
+<text class="k-labs" x="1050.0" y="2950.0" text-anchor="middle" direction="rtl">זרוע מהחנייה ←</text>
+<text class="k-lab" x="1760.0" y="3075.0" text-anchor="middle" direction="rtl">חנייה</text>
+<text class="k-labs" x="1760.0" y="3120.0" text-anchor="middle" direction="rtl">בטון — מחוץ לגיליון</text>
+<text class="k-lab" x="1785.0" y="1780.0" text-anchor="middle" direction="rtl" transform="rotate(-90.0 1785.0 1780.0)">רצועה מזרחית</text>
+<text class="k-labs" x="1840.0" y="1780.0" text-anchor="middle" direction="rtl" transform="rotate(-90.0 1840.0 1780.0)">בטון — עד 1 מ׳ לפני סוף הבית</text>
+<text class="k-labb" x="1165.0" y="930.0" text-anchor="middle" direction="rtl">גינה אחורית</text>
+<text class="k-labs" x="1165.0" y="985.0" text-anchor="middle" direction="rtl">דשא · שטח שמור לבריכה אפשרית</text>
+<text class="k-labs" x="530.0" y="1680.0" text-anchor="middle" direction="rtl" transform="rotate(-90.0 530.0 1680.0)">אבני מדרך אל הגינה</text>
+<text class="k-labs" x="388.0" y="2580.0" text-anchor="middle" direction="rtl" transform="rotate(-90.0 388.0 2580.0)">ערוגה</text>
+<text class="k-labs" x="692.0" y="2720.0" text-anchor="middle" direction="rtl" transform="rotate(-90.0 692.0 2720.0)">ערוגה</text>
+<text class="k-lab" x="508.0" y="3450.0" text-anchor="middle" direction="rtl">פשפש</text>
+<text class="k-lab" x="1760.0" y="3450.0" text-anchor="middle" direction="rtl">שער נגרר לרכב</text>
+<text class="k-labs" x="1165.0" y="3610.0" text-anchor="middle" direction="rtl">רחוב אלה — מדרכה</text>
+<text class="k-labs" x="1592.0" y="2085.0" text-anchor="end" direction="rtl">דלת חוץ שנייה</text>
+<text class="k-labs" x="830.0" y="2280.0" text-anchor="end" direction="rtl">← גגון + עמוד קיים</text>
+<text class="k-sewt" x="1870.0" y="2320.0" text-anchor="middle" direction="rtl">ביוב קיים</text>
+<path class="k-svx" d="M321.4,3271.4 l17.1,17.1 M321.4,3288.6 l17.1,-17.1"/>
+<text class="k-sv" x="390.0" y="3306.3" text-anchor="middle">49.06</text>
+<path class="k-svx" d="M1991.5,3271.4 l17.1,17.1 M1991.5,3288.6 l17.1,-17.1"/>
+<text class="k-sv" x="1940.0" y="3306.3" text-anchor="middle">49.41</text>
+<path class="k-svx" d="M321.4,571.5 l17.1,17.1 M321.4,588.5 l17.1,-17.1"/>
+<text class="k-sv" x="390.0" y="546.3" text-anchor="middle">49.68</text>
+<path class="k-svx" d="M1991.5,571.5 l17.1,17.1 M1991.5,588.5 l17.1,-17.1"/>
+<text class="k-sv" x="1940.0" y="546.3" text-anchor="middle">49.63</text>
+<path class="k-svx" d="M697.5,3069.4 l17.1,17.1 M697.5,3086.6 l17.1,-17.1"/>
+<text class="k-sv" x="706.0" y="3064.3" text-anchor="middle">49.14</text>
+<path class="k-svx" d="M527.5,2800.4 l17.1,17.1 M527.5,2817.6 l17.1,-17.1"/>
+<text class="k-sv" x="536.0" y="2795.3" text-anchor="middle">49.34</text>
+<path class="k-svx" d="M368.4,2747.4 l17.1,17.1 M368.4,2764.6 l17.1,-17.1"/>
+<text class="k-sv" x="377.0" y="2742.3" text-anchor="middle">49.22</text>
+<path class="k-svx" d="M517.5,2546.4 l17.1,17.1 M517.5,2563.6 l17.1,-17.1"/>
+<text class="k-sv" x="526.0" y="2541.3" text-anchor="middle">49.30</text>
+<path class="k-svx" d="M538.5,2331.4 l17.1,17.1 M538.5,2348.6 l17.1,-17.1"/>
+<text class="k-sv" x="547.0" y="2326.3" text-anchor="middle">49.87</text>
+<path class="k-svx" d="M558.5,2163.4 l17.1,17.1 M558.5,2180.6 l17.1,-17.1"/>
+<text class="k-sv" x="567.0" y="2158.3" text-anchor="middle">49.95</text>
+<path class="k-svx" d="M359.4,2240.4 l17.1,17.1 M359.4,2257.6 l17.1,-17.1"/>
+<text class="k-sv" x="368.0" y="2235.3" text-anchor="middle">49.61</text>
+<path class="k-svx" d="M881.5,2855.4 l17.1,17.1 M881.5,2872.6 l17.1,-17.1"/>
+<text class="k-sv" x="890.0" y="2850.3" text-anchor="middle">49.24</text>
+<path class="k-svx" d="M1582.5,2787.4 l17.1,17.1 M1582.5,2804.6 l17.1,-17.1"/>
+<text class="k-sv" x="1591.0" y="2782.3" text-anchor="middle">49.54</text>
+<path class="k-svx" d="M1652.5,1946.5 l17.1,17.1 M1652.5,1963.5 l17.1,-17.1"/>
+<text class="k-sv" x="1661.0" y="1941.3" text-anchor="middle">49.82</text>
+<path class="k-svx" d="M1665.5,1626.5 l17.1,17.1 M1665.5,1643.5 l17.1,-17.1"/>
+<text class="k-sv" x="1674.0" y="1621.3" text-anchor="middle">49.83</text>
+<path class="k-svx" d="M1850.5,1392.5 l17.1,17.1 M1850.5,1409.5 l17.1,-17.1"/>
+<text class="k-sv" x="1859.0" y="1387.3" text-anchor="middle">49.73</text>
+<path d="M508.0,3210.0 l-12.0,-18.0 l23.9,0 z" class="k-acc"/>
+<rect class="k-lvlbox" x="446.4" y="3144.2" width="123.1" height="44.5" rx="5.1"/>
+<text class="k-lvl" x="508.0" y="3178.0" text-anchor="middle">49.08</text>
+<path d="M508.0,2480.0 l-12.0,-18.0 l23.9,0 z" class="k-acc"/>
+<rect class="k-lvlbox" x="446.4" y="2414.2" width="123.1" height="44.5" rx="5.1"/>
+<text class="k-lvl" x="508.0" y="2448.0" text-anchor="middle">49.94</text>
+<path d="M725.0,2100.0 l-12.0,-18.0 l23.9,0 z" class="k-acc"/>
+<rect class="k-lvlbox" x="663.4" y="2034.2" width="123.1" height="44.5" rx="5.1"/>
+<text class="k-lvl" x="725.0" y="2068.0" text-anchor="middle">50.00</text>
+<polygon class="k-roof" points="290.0,3375.0 890.0,3375.0 890.0,1950.0 290.0,1950.0" />
+<text class="k-lab" x="245.0" y="2660.0" text-anchor="middle" direction="rtl" transform="rotate(-90.0 245.0 2660.0)">גיליון 2 — פרט כניסה 1:50</text>
+<polyline class="k-cut" points="508.0,3530.0 508.0,3390.0" />
+<polyline class="k-cut" points="508.0,1940.0 508.0,1860.0" />
+<text class="k-cutT" x="563.0" y="3530.0" text-anchor="middle" direction="rtl">א</text>
+<text class="k-cutT" x="563.0" y="1880.0" text-anchor="middle" direction="rtl">א</text>
+<line class="k-ext" x1="330.0" y1="574.0" x2="330.0" y2="421.6"/>
+<line class="k-ext" x1="2000.0" y1="574.0" x2="2000.0" y2="421.6"/>
+<line class="k-dim" x1="330.0" y1="430.0" x2="2000.0" y2="430.0"/>
+<line class="k-tick" x1="313.9" y1="413.9" x2="346.1" y2="446.1"/>
+<line class="k-tick" x1="1983.9" y1="413.9" x2="2016.1" y2="446.1"/>
+<text class="k-dt" x="1165.0" y="404.9" text-anchor="middle">1670 ★</text>
+<line class="k-ext" x1="324.0" y1="3280.0" x2="91.6" y2="3280.0"/>
+<line class="k-ext" x1="324.0" y1="580.0" x2="91.6" y2="580.0"/>
+<line class="k-dim" x1="100.0" y1="3280.0" x2="100.0" y2="580.0"/>
+<line class="k-tick" x1="83.9" y1="3296.1" x2="116.1" y2="3263.9"/>
+<line class="k-tick" x1="83.9" y1="596.1" x2="116.1" y2="563.9"/>
+<text class="k-dt" x="125.1" y="1930.0" text-anchor="middle" transform="rotate(90.0 125.1 1930.0)">2700 ★</text>
+<line class="k-dim" x1="330.0" y1="1326.1" x2="630.0" y2="1326.1"/>
+<line class="k-tick" x1="313.9" y1="1310.0" x2="346.1" y2="1342.2"/>
+<line class="k-tick" x1="613.9" y1="1310.0" x2="646.1" y2="1342.2"/>
+<text class="k-dt" x="480.0" y="1301.0" text-anchor="middle">300 ★</text>
+<line class="k-dim" x1="1570.6" y1="2580.0" x2="2000.0" y2="2580.0"/>
+<line class="k-tick" x1="1554.5" y1="2563.9" x2="1586.7" y2="2596.1"/>
+<line class="k-tick" x1="1983.9" y1="2563.9" x2="2016.1" y2="2596.1"/>
+<text class="k-dt" x="1785.3" y="2554.9" text-anchor="middle">≈430 ?</text>
+<line class="k-dim" x1="800.1" y1="3027.0" x2="1570.6" y2="3027.0"/>
+<line class="k-tick" x1="784.0" y1="3010.9" x2="816.2" y2="3043.1"/>
+<line class="k-tick" x1="1554.5" y1="3010.9" x2="1586.7" y2="3043.1"/>
+<text class="k-dt" x="1185.3" y="3001.9" text-anchor="middle">770 ★</text>
+<line class="k-dim" x1="1450.0" y1="3280.0" x2="1450.0" y2="2797.0"/>
+<line class="k-tick" x1="1433.9" y1="3296.1" x2="1466.1" y2="3263.9"/>
+<line class="k-tick" x1="1433.9" y1="2813.1" x2="1466.1" y2="2780.9"/>
+<text class="k-dt" x="1475.1" y="3038.5" text-anchor="middle" transform="rotate(90.0 1475.1 3038.5)">483 ★</text>
+<line class="k-dim" x1="1340.0" y1="3280.0" x2="1340.0" y2="2880.0"/>
+<line class="k-tick" x1="1323.9" y1="3296.1" x2="1356.1" y2="3263.9"/>
+<line class="k-tick" x1="1323.9" y1="2896.1" x2="1356.1" y2="2863.9"/>
+<text class="k-dt" x="1365.1" y="3080.0" text-anchor="middle" transform="rotate(90.0 1365.1 3080.0)">400 ★</text>
+<line class="k-dim" x1="510.0" y1="1286.1" x2="510.0" y2="580.0"/>
+<line class="k-tick" x1="493.9" y1="1302.2" x2="526.1" y2="1270.0"/>
+<line class="k-tick" x1="493.9" y1="596.1" x2="526.1" y2="563.9"/>
+<text class="k-dt" x="535.1" y="933.0" text-anchor="middle" transform="rotate(90.0 535.1 933.0)">≈706</text>
+<line class="k-ext" x1="330.0" y1="3286.0" x2="330.0" y2="3408.4"/>
+<line class="k-ext" x1="445.0" y1="3286.0" x2="445.0" y2="3408.4"/>
+<line class="k-dim" x1="330.0" y1="3400.0" x2="445.0" y2="3400.0"/>
+<line class="k-tick" x1="313.9" y1="3383.9" x2="346.1" y2="3416.1"/>
+<line class="k-tick" x1="428.9" y1="3383.9" x2="461.1" y2="3416.1"/>
+<text class="k-dt" x="387.5" y="3374.9" text-anchor="middle">115</text>
+<line class="k-ext" x1="445.0" y1="3286.0" x2="445.0" y2="3408.4"/>
+<line class="k-ext" x1="576.0" y1="3286.0" x2="576.0" y2="3408.4"/>
+<line class="k-dim" x1="445.0" y1="3400.0" x2="576.0" y2="3400.0"/>
+<line class="k-tick" x1="428.9" y1="3383.9" x2="461.1" y2="3416.1"/>
+<line class="k-tick" x1="559.9" y1="3383.9" x2="592.1" y2="3416.1"/>
+<text class="k-dt" x="510.5" y="3374.9" text-anchor="middle">130 ★</text>
+<line class="k-ext" x1="576.0" y1="3286.0" x2="576.0" y2="3408.4"/>
+<line class="k-ext" x1="1520.0" y1="3286.0" x2="1520.0" y2="3408.4"/>
+<line class="k-dim" x1="576.0" y1="3400.0" x2="1520.0" y2="3400.0"/>
+<line class="k-tick" x1="559.9" y1="3383.9" x2="592.1" y2="3416.1"/>
+<line class="k-tick" x1="1503.9" y1="3383.9" x2="1536.1" y2="3416.1"/>
+<text class="k-dt" x="1048.0" y="3374.9" text-anchor="middle">943 ★ / 880 ★ ⚠</text>
+<line class="k-ext" x1="1520.0" y1="3286.0" x2="1520.0" y2="3408.4"/>
+<line class="k-ext" x1="2000.0" y1="3286.0" x2="2000.0" y2="3408.4"/>
+<line class="k-dim" x1="1520.0" y1="3400.0" x2="2000.0" y2="3400.0"/>
+<line class="k-tick" x1="1503.9" y1="3383.9" x2="1536.1" y2="3416.1"/>
+<line class="k-tick" x1="1983.9" y1="3383.9" x2="2016.1" y2="3416.1"/>
+<text class="k-dt" x="1760.0" y="3374.9" text-anchor="middle">480 ★</text>
+<g transform="translate(2380 3350) rotate(-15.6)"><circle r="95" fill="none" stroke="#2b2824" stroke-width="3"/><path d="M0,-120 L34,70 L0,40 L-34,70 Z" fill="#2b2824"/></g>
+<text class="k-cutT" x="2338.0" y="3200.0" text-anchor="middle" direction="rtl">צ</text>
+<text class="k-labs" x="2380.0" y="3500.0" text-anchor="middle" direction="rtl">צפון אמיתי מוטה ≈16°</text>
+<rect x="2040" y="3560" width="100" height="18" fill="#2b2824" stroke="#2b2824" stroke-width="2"/>
+<rect x="2140" y="3560" width="100" height="18" fill="#fff" stroke="#2b2824" stroke-width="2"/>
+<rect x="2240" y="3560" width="100" height="18" fill="#2b2824" stroke="#2b2824" stroke-width="2"/>
+<rect x="2340" y="3560" width="100" height="18" fill="#fff" stroke="#2b2824" stroke-width="2"/>
+<rect x="2440" y="3560" width="100" height="18" fill="#2b2824" stroke="#2b2824" stroke-width="2"/>
+<text class="k-labs" x="2040.0" y="3615.0" text-anchor="middle">0</text>
+<text class="k-labs" x="2140.0" y="3615.0" text-anchor="middle">1</text>
+<text class="k-labs" x="2240.0" y="3615.0" text-anchor="middle">2</text>
+<text class="k-labs" x="2340.0" y="3615.0" text-anchor="middle">3</text>
+<text class="k-labs" x="2440.0" y="3615.0" text-anchor="middle">4</text>
+<text class="k-labs" x="2540.0" y="3615.0" text-anchor="middle" direction="rtl">5 מ׳</text>
+<text class="k-labs" x="2290.0" y="3535.0" text-anchor="middle" direction="rtl">קנ״מ 1:100 בהדפסת A3</text>
+<text class="k-h" x="2880.0" y="330.0" text-anchor="start" direction="rtl">מקרא</text>
+<rect class="k-conc" x="2800" y="360" width="80" height="40"/>
+<text class="k-note2" x="2780.0" y="390.0" text-anchor="start" direction="rtl">בטון מוחלק — אותנטיק (בגיליון זה)</text>
+<rect class="k-concS" x="2800" y="422" width="80" height="40"/>
+<text class="k-note2" x="2780.0" y="452.0" text-anchor="start" direction="rtl">בטון — חנייה ורצועה מזרחית</text>
+<rect class="k-undec" x="2800" y="484" width="80" height="40"/>
+<text class="k-note2" x="2780.0" y="514.0" text-anchor="start" direction="rtl">משטח חזית — טרם הוחלט</text>
+<rect class="k-stone" x="2800" y="546" width="80" height="40"/>
+<text class="k-note2" x="2780.0" y="576.0" text-anchor="start" direction="rtl">אבני מדרך</text>
+<rect class="k-plant" x="2800" y="608" width="80" height="40"/>
+<text class="k-note2" x="2780.0" y="638.0" text-anchor="start" direction="rtl">ערוגה / שתילה</text>
+<rect class="k-lawn" x="2800" y="670" width="80" height="40"/>
+<text class="k-note2" x="2780.0" y="700.0" text-anchor="start" direction="rtl">דשא</text>
+<rect class="k-wall" x="2800" y="732" width="80" height="40"/>
+<text class="k-note2" x="2780.0" y="762.0" text-anchor="start" direction="rtl">קיר קיים (העמדה 21.08.26)</text>
+<line class="k-nose" x1="2800" y1="812" x2="2880" y2="812"/>
+<text class="k-note2" x="2780.0" y="824.0" text-anchor="start" direction="rtl">אף מדרגה (רום 16)</text>
+<line class="k-roof" x1="2800" y1="867" x2="2880" y2="867"/>
+<text class="k-note2" x="2780.0" y="879.0" text-anchor="start" direction="rtl">קו גגון / גבול גיליון 2</text>
+<line class="k-demo" x1="2800" y1="922" x2="2880" y2="922"/>
+<text class="k-note2" x="2780.0" y="934.0" text-anchor="start" direction="rtl">קיים — לפירוק</text>
+<line class="k-sew" x1="2800" y1="977" x2="2880" y2="977"/>
+<text class="k-note2" x="2780.0" y="989.0" text-anchor="start" direction="rtl">קו ביוב קיים (מפה מצבית)</text>
+<line class="k-cut" x1="2800" y1="1032" x2="2880" y2="1032"/>
+<text class="k-note2" x="2780.0" y="1044.0" text-anchor="start" direction="rtl">קו חתך</text>
+<path class="k-svx" d="M2832,1103 l16,16 M2832,1119 l16,-16"/>
+<text class="k-note2" x="2780.0" y="1129.0" text-anchor="start" direction="rtl">מפלס קיים — מפה מצבית (מיקום ±20)</text>
+<path class="k-acc" d="M2840,1185 l-12,-18 l24,0 z"/>
+<text class="k-note2" x="2780.0" y="1189.0" text-anchor="start" direction="rtl">מפלס מתוכנן</text>
+<text class="k-note2" x="2880.0" y="1249.0" text-anchor="start" direction="rtl">★ מודפס במקור · ≈ נמדד בקנ״מ · ? לא נסגר</text>
+<text class="k-note2" x="2880.0" y="1304.0" text-anchor="start" direction="rtl">כל המידות בס״מ · מפלסים במטרים מעל פני הים</text>
+<text class="k-h" x="2880.0" y="1414.0" text-anchor="start" direction="rtl">הערות</text>
+<text class="k-note2" x="2880.0" y="1469.0" text-anchor="start" direction="rtl">1. המגרש, השערים והמפלסים — מהגרמושקה 2.1.24</text>
+<text class="k-note2" x="2880.0" y="1513.0" text-anchor="start" direction="rtl">   (מפה מצבית 1:250 + קומת קרקע 1:100).</text>
+<text class="k-note2" x="2880.0" y="1557.0" text-anchor="start" direction="rtl">   הבית — מהעמדה של נופר 21.08.26.</text>
+<text class="k-note2" x="2880.0" y="1601.0" text-anchor="start" direction="rtl">2. הבית הוצב לפי 300 ★ ממערב ו־483 ★ מדרום.</text>
+<text class="k-note2" x="2880.0" y="1645.0" text-anchor="start" direction="rtl">   במזרח המקורות לא נסגרים (≈28 ס״מ) —</text>
+<text class="k-note2" x="2880.0" y="1689.0" text-anchor="start" direction="rtl">   לסמן שם מקיר הבית, לא מהגדר.</text>
+<text class="k-note2" x="2880.0" y="1733.0" text-anchor="start" direction="rtl">3. ⚠ בין השערים 943 בגיליון אחד ו־880 באחר.</text>
+<text class="k-note2" x="2880.0" y="1777.0" text-anchor="start" direction="rtl">   943 סוגר את השרשרת ל־16.70 ★;</text>
+<text class="k-note2" x="2880.0" y="1821.0" text-anchor="start" direction="rtl">   לסמן בכל מקרה מהמשקוף בשטח.</text>
+<text class="k-note2" x="2880.0" y="1865.0" text-anchor="start" direction="rtl">4. צפון התוכנית כלפי מעלה, כמו אצל נופר.</text>
+<text class="k-note2" x="2880.0" y="1909.0" text-anchor="start" direction="rtl">5. מידה שאינה רשומה — לא למדוד מהשרטוט.</text>
+<rect class="k-tb" x="1790" y="3720" width="1140" height="440"/>
+<text x="2896.0" y="3784.6" text-anchor="start" direction="rtl" style="font-size:45.9px;font-weight:800;fill:#2b2824">תוכנית פיתוח — חצר ושבילי כניסה</text>
+<text x="2896.0" y="3851.2" text-anchor="start" direction="rtl" style="font-size:32.3px;font-weight:400;fill:#6a635a">גיליון 1 מתוך 2 · קנ״מ 1:100 (A3)</text>
+<line class="k-tbl" x1="1790" y1="3879.3" x2="2930" y2="3879.3"/>
+<text x="2896.0" y="3918.4" text-anchor="start" direction="rtl" style="font-size:34.0px;font-weight:400;fill:#2b2824">אשל 57, בת חפר · גוש 8729 חלקה 41</text>
+<text x="2896.0" y="3967.7" text-anchor="start" direction="rtl" style="font-size:34.0px;font-weight:400;fill:#2b2824">מזמינים: יעל ורועי אבגיל</text>
+<text x="2896.0" y="4017.0" text-anchor="start" direction="rtl" style="font-size:34.0px;font-weight:400;fill:#2b2824">לתיאום: גל (אותנטיק בטון) · נופר צבר צבי</text>
+<text x="2896.0" y="4066.3" text-anchor="start" direction="rtl" style="font-size:34.0px;font-weight:700;fill:#2b2824">גרסה ג׳ · 18.09.2026</text>
+<text x="2896.0" y="4115.6" text-anchor="start" direction="rtl" style="font-size:34.0px;font-weight:700;fill:#b3382c">לתיאום — לא לביצוע לפני מדידת בקרה</text>
+<text x="2896.0" y="4164.9" text-anchor="start" direction="rtl" style="font-size:28.9px;font-weight:400;fill:#6a635a">הוכן ע״י Claude (AI) עבור יעל · אינה תוכנית חתומה</text></svg>
